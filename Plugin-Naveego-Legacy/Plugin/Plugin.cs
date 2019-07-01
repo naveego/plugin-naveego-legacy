@@ -343,17 +343,20 @@ namespace Plugin_Naveego_Legacy.Plugin
             
             try
             {
-                var loginPayload = new JObject
+                var keyValues = new List<KeyValuePair<string, string>>
                 {
-                    {"username", _formSettings.Username},
-                    {"password", _formSettings.Password},
-                    {"repository", _formSettings.TenatnID}
+                    new KeyValuePair<string, string>("grant_type", "password"),
+                    new KeyValuePair<string, string>("username", _formSettings.Username),
+                    new KeyValuePair<string, string>("password", _formSettings.Password),
+                    new KeyValuePair<string, string>("client_id", _formSettings.OAuthClientId),
+                    new KeyValuePair<string, string>("client_secret", _formSettings.OAuthClientSecret)
                 };
+                var formContent = new FormUrlEncodedContent(keyValues);
+                
 
                 var authUrl = $"{_apiUri}/authenticate";
 
-                var requestContent = new StringContent(loginPayload.ToString(), Encoding.UTF8, "application/json");
-                var resp = await _injectedClient.PostAsync(authUrl, requestContent);
+                var resp = await _injectedClient.PostAsync(authUrl, formContent);
 
                 if (resp.IsSuccessStatusCode)
                 {
