@@ -14,24 +14,37 @@
   "canAcceptQueryBasedSchemas": false,
   "canUseOAuth": false,
   "canWrite": false,
+  "tenants": [
+    "pennenergy2",
+    "vandelay"
+  ],
   "configSchema": {
     "ui": {
       "ui:order": [
-        "TenantID",
+        "OAuthClientID",
+        "OAuthClientSecret",
         "Username",
         "Password"
       ],
-      "password": {
+      "Password": {
+        "ui:widget": "password"
+      },
+      "OAuthClientSecret": {
         "ui:widget": "password"
       }
     },
     "schema": {
       "type": "object",
       "properties": {
-        "TenantID" : {
+        "OAuthClientID" : {
           "type": "string",
-          "title": "Tenant ID",
-          "description": "The tenant id to use when pulling data"
+          "title": "OAuthClientID",
+          "description": "The oauth client id to use for authentication"
+        },
+        "OAuthClientSecret": {
+          "type": "string",
+          "title": "OAuthClientSecret",
+          "description": "The oauth client secret to use for authentication"
         },
         "Username": {
           "type": "string",
@@ -39,13 +52,14 @@
           "description": "The username to use for authentication"
         },
         "Password": {
-          "type": "password",
+          "type": "string",
           "title": "Password",
           "description": "The password to use for authentication"
         }
       },
       "required": [
-        "TenantID",
+        "OAuthClientID",
+        "OAuthClientSecret",
         "Username",
         "Password"
       ]
