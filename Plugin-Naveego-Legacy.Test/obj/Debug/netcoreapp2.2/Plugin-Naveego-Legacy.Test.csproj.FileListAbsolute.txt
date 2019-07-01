@@ -1,0 +1,17 @@
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.deps.json
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.runtimeconfig.json
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.runtimeconfig.dev.json
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.pdb
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.pdb
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.csprojAssemblyReference.cache
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.csproj.CoreCompileInputs.cache
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.AssemblyInfoInputs.cache
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.AssemblyInfo.cs
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.csproj.CopyComplete
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.Test.pdb

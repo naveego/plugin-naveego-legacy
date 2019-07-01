@@ -1,0 +1,74 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj",
+    "projectName": "Plugin-Naveego-Legacy",
+    "projectPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj",
+    "outputPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Google.Protobuf": {
+          "target": "Package",
+          "version": "[3.6.1, )"
+        },
+        "Grpc": {
+          "target": "Package",
+          "version": "[1.17.0, )"
+        },
+        "Grpc.HealthCheck": {
+          "target": "Package",
+          "version": "[1.17.0, )"
+        },
+        "Grpc.Tools": {
+          "target": "Package",
+          "version": "[1.17.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  },
+  "runtimes": {
+    "linux-x64": {
+      "#import": []
+    },
+    "osx-x64": {
+      "#import": []
+    },
+    "win-x64": {
+      "#import": []
+    }
+  }
+}

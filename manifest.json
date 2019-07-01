@@ -1,0 +1,54 @@
+{
+  "id": "plugin-naveego-legacy",
+  "displayName": "Naveego Legacy Publisher",
+  "description": "Publisher which pulls data from a Naveego's Legacy Golden Record service",
+  "apiVersion": "2",
+  "versionDescription": "Version 2",
+  "version": "1.0.0",
+  "iconFile": "icon.jpg",
+  "executable": "Plugin-Naveego-Legacy",
+  "kind": "publisher",
+  "os": "$GOOS",
+  "arch": "$GOARCH",
+  "canProduceMultipleSchemas": true,
+  "canAcceptQueryBasedSchemas": false,
+  "canUseOAuth": false,
+  "canWrite": false,
+  "configSchema": {
+    "ui": {
+      "ui:order": [
+        "TenantID",
+        "Username",
+        "Password"
+      ],
+      "password": {
+        "ui:widget": "password"
+      }
+    },
+    "schema": {
+      "type": "object",
+      "properties": {
+        "TenantID" : {
+          "type": "string",
+          "title": "Tenant ID",
+          "description": "The tenant id to use when pulling data"
+        },
+        "Username": {
+          "type": "string",
+          "title": "Username",
+          "description": "The username to use for authentication"
+        },
+        "Password": {
+          "type": "password",
+          "title": "Password",
+          "description": "The password to use for authentication"
+        }
+      },
+      "required": [
+        "TenantID",
+        "Username",
+        "Password"
+      ]
+    }
+  }
+}

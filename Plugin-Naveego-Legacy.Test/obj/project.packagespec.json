@@ -1,0 +1,75 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/Plugin-Naveego-Legacy.Test.csproj",
+    "projectName": "Plugin-Naveego-Legacy.Test",
+    "projectPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/Plugin-Naveego-Legacy.Test.csproj",
+    "outputPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy.Test/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj": {
+            "projectPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Grpc": {
+          "target": "Package",
+          "version": "[1.17.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.10.1, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.1, )"
+        },
+        "RichardSzalay.MockHttp": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

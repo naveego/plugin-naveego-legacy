@@ -1,0 +1,1467 @@
+07/01/2019 12:12:11 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/whoami").
+07/01/2019 12:15:53 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/whoami").
+07/01/2019 12:17:04 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/whoami").
+07/01/2019 12:19:25 Connected to Naveego Legacy API
+07/01/2019 12:23:59 Connected to Naveego Legacy API
+07/01/2019 12:24:00 Discovering Schemas...
+07/01/2019 12:24:00 The best overloaded method match for 'Plugin_Naveego_Legacy.Plugin.Plugin.GetPropertyType(string)' has some invalid arguments
+07/01/2019 12:24:42 Connected to Naveego Legacy API
+07/01/2019 12:25:44 Discovering Schemas...
+07/01/2019 12:27:31 Connected to Naveego Legacy API
+07/01/2019 12:27:39 Discovering Schemas...
+07/01/2019 12:29:02 Connected to Naveego Legacy API
+07/01/2019 12:29:02 Discovering Schemas...
+07/01/2019 12:29:02 Schemas found: 5
+07/01/2019 12:29:02 Schemas returned: 5
+07/01/2019 12:29:18 Connected to Naveego Legacy API
+07/01/2019 12:29:18 Discovering Schemas...
+07/01/2019 12:29:18 Schemas found: 5
+07/01/2019 12:29:18 Schemas returned: 5
+07/01/2019 12:30:04 Connected to Naveego Legacy API
+07/01/2019 12:30:04 Discovering Schemas...
+07/01/2019 12:30:04 Schemas found: 5
+07/01/2019 12:30:04 Schemas returned: 5
+07/01/2019 12:35:48 Connected to Naveego Legacy API
+07/01/2019 12:35:48 Discovering Schemas...
+07/01/2019 12:35:48 Schemas found: 5
+07/01/2019 12:35:48 Schemas returned: 5
+07/01/2019 12:36:04 Connected to Naveego Legacy API
+07/01/2019 12:36:04 Discovering Schemas...
+07/01/2019 12:36:04 Schemas found: 5
+07/01/2019 12:36:04 Schemas returned: 5
+07/01/2019 13:22:51 Connected to Naveego Legacy API
+07/01/2019 13:22:51 Discovering Schemas...
+07/01/2019 13:22:52 Schemas found: 5
+07/01/2019 13:22:52 Schemas returned: 5
+07/01/2019 13:23:20 Connected to Naveego Legacy API
+07/01/2019 13:23:27 Discovering Schemas...
+07/01/2019 13:23:32 Schemas found: 5
+07/01/2019 13:23:32 Schemas returned: 5
+07/01/2019 13:24:40 Connected to Naveego Legacy API
+07/01/2019 13:24:40 Discovering Schemas...
+07/01/2019 13:24:40 Schemas found: 5
+07/01/2019 13:24:40 Schemas returned: 5
+07/01/2019 13:24:57 Connected to Naveego Legacy API
+07/01/2019 13:24:57 Discovering Schemas...
+07/01/2019 13:24:58 Schemas found: 5
+07/01/2019 13:24:58 Schemas returned: 5
+07/01/2019 13:25:36 Connected to Naveego Legacy API
+07/01/2019 13:25:53 Discovering Schemas...
+07/01/2019 13:25:53 Schemas found: 5
+07/01/2019 13:25:53 Schemas returned: 5
+07/01/2019 13:26:16 Connected to Naveego Legacy API
+07/01/2019 13:26:16 Discovering Schemas...
+07/01/2019 13:26:16 Schemas found: 5
+07/01/2019 13:26:16 Schemas returned: 5
+07/01/2019 13:29:07 Connected to Naveego Legacy API
+07/01/2019 13:29:07 Discovering Schemas...
+07/01/2019 13:29:07 Schemas found: 5
+07/01/2019 13:29:07 Schemas returned: 5
+07/01/2019 13:29:46 Connected to Naveego Legacy API
+07/01/2019 13:29:46 Discovering Schemas...
+07/01/2019 13:29:47 Schemas found: 5
+07/01/2019 13:29:47 Schemas returned: 5
+07/01/2019 13:29:49 Connected to Naveego Legacy API
+07/01/2019 13:29:49 Discovering Schemas...
+07/01/2019 13:29:49 Schemas found: 5
+07/01/2019 13:29:49 Schemas returned: 5
+07/01/2019 13:29:51 Connected to Naveego Legacy API
+07/01/2019 13:29:51 Discovering Schemas...
+07/01/2019 13:29:51 Schemas found: 5
+07/01/2019 13:29:51 Schemas returned: 5
+07/01/2019 13:29:53 Connected to Naveego Legacy API
+07/01/2019 13:29:53 Discovering Schemas...
+07/01/2019 13:29:53 Schemas found: 5
+07/01/2019 13:29:53 Schemas returned: 5
+07/01/2019 13:29:55 Connected to Naveego Legacy API
+07/01/2019 13:29:55 Discovering Schemas...
+07/01/2019 13:29:55 Schemas found: 5
+07/01/2019 13:29:55 Schemas returned: 5
+07/01/2019 13:29:57 Connected to Naveego Legacy API
+07/01/2019 13:29:57 Discovering Schemas...
+07/01/2019 13:29:58 Schemas found: 5
+07/01/2019 13:29:58 Schemas returned: 5
+07/01/2019 13:30:00 Connected to Naveego Legacy API
+07/01/2019 13:30:00 Discovering Schemas...
+07/01/2019 13:30:00 Schemas found: 5
+07/01/2019 13:30:00 Schemas returned: 5
+07/01/2019 13:30:02 Connected to Naveego Legacy API
+07/01/2019 13:30:02 Discovering Schemas...
+07/01/2019 13:30:02 Schemas found: 5
+07/01/2019 13:30:02 Schemas returned: 5
+07/01/2019 13:30:04 Connected to Naveego Legacy API
+07/01/2019 13:30:04 Discovering Schemas...
+07/01/2019 13:30:04 Schemas found: 5
+07/01/2019 13:30:04 Schemas returned: 5
+07/01/2019 13:30:06 Connected to Naveego Legacy API
+07/01/2019 13:30:07 Discovering Schemas...
+07/01/2019 13:30:07 Schemas found: 5
+07/01/2019 13:30:07 Schemas returned: 5
+07/01/2019 13:30:07 Connected to Naveego Legacy API
+07/01/2019 13:30:07 Discovering Schemas...
+07/01/2019 13:30:07 Schemas found: 5
+07/01/2019 13:30:07 Schemas returned: 5
+07/01/2019 13:30:09 Connected to Naveego Legacy API
+07/01/2019 13:30:09 Discovering Schemas...
+07/01/2019 13:30:09 Schemas found: 5
+07/01/2019 13:30:09 Schemas returned: 5
+07/01/2019 13:30:11 Connected to Naveego Legacy API
+07/01/2019 13:30:11 Discovering Schemas...
+07/01/2019 13:30:11 Schemas found: 5
+07/01/2019 13:30:11 Schemas returned: 5
+07/01/2019 13:30:14 Connected to Naveego Legacy API
+07/01/2019 13:30:14 Discovering Schemas...
+07/01/2019 13:30:14 Schemas found: 5
+07/01/2019 13:30:14 Schemas returned: 5
+07/01/2019 13:30:16 Connected to Naveego Legacy API
+07/01/2019 13:30:16 Discovering Schemas...
+07/01/2019 13:30:16 Schemas found: 5
+07/01/2019 13:30:16 Schemas returned: 5
+07/01/2019 13:30:18 Connected to Naveego Legacy API
+07/01/2019 13:30:18 Discovering Schemas...
+07/01/2019 13:30:18 Schemas found: 5
+07/01/2019 13:30:18 Schemas returned: 5
+07/01/2019 13:30:20 Connected to Naveego Legacy API
+07/01/2019 13:30:20 Discovering Schemas...
+07/01/2019 13:30:20 Schemas found: 5
+07/01/2019 13:30:20 Schemas returned: 5
+07/01/2019 13:30:22 Connected to Naveego Legacy API
+07/01/2019 13:30:22 Discovering Schemas...
+07/01/2019 13:30:22 Schemas found: 5
+07/01/2019 13:30:22 Schemas returned: 5
+07/01/2019 13:30:25 Connected to Naveego Legacy API
+07/01/2019 13:30:25 Discovering Schemas...
+07/01/2019 13:30:25 Schemas found: 5
+07/01/2019 13:30:25 Schemas returned: 5
+07/01/2019 13:30:27 Connected to Naveego Legacy API
+07/01/2019 13:30:27 Discovering Schemas...
+07/01/2019 13:30:27 Schemas found: 5
+07/01/2019 13:30:27 Schemas returned: 5
+07/01/2019 13:30:29 Connected to Naveego Legacy API
+07/01/2019 13:30:29 Discovering Schemas...
+07/01/2019 13:30:29 Schemas found: 5
+07/01/2019 13:30:29 Schemas returned: 5
+07/01/2019 13:30:31 Connected to Naveego Legacy API
+07/01/2019 13:30:31 Discovering Schemas...
+07/01/2019 13:30:31 Schemas found: 5
+07/01/2019 13:30:31 Schemas returned: 5
+07/01/2019 13:30:33 Connected to Naveego Legacy API
+07/01/2019 13:30:33 Discovering Schemas...
+07/01/2019 13:30:33 Schemas found: 5
+07/01/2019 13:30:33 Schemas returned: 5
+07/01/2019 13:30:35 Connected to Naveego Legacy API
+07/01/2019 13:30:35 Discovering Schemas...
+07/01/2019 13:30:35 Schemas found: 5
+07/01/2019 13:30:35 Schemas returned: 5
+07/01/2019 13:30:37 Connected to Naveego Legacy API
+07/01/2019 13:30:37 Discovering Schemas...
+07/01/2019 13:30:37 Schemas found: 5
+07/01/2019 13:30:37 Schemas returned: 5
+07/01/2019 13:30:39 Connected to Naveego Legacy API
+07/01/2019 13:30:39 Discovering Schemas...
+07/01/2019 13:30:39 Schemas found: 5
+07/01/2019 13:30:39 Schemas returned: 5
+07/01/2019 13:30:42 Connected to Naveego Legacy API
+07/01/2019 13:30:42 Discovering Schemas...
+07/01/2019 13:30:42 Schemas found: 5
+07/01/2019 13:30:42 Schemas returned: 5
+07/01/2019 13:30:44 Connected to Naveego Legacy API
+07/01/2019 13:30:44 Discovering Schemas...
+07/01/2019 13:30:44 Schemas found: 5
+07/01/2019 13:30:44 Schemas returned: 5
+07/01/2019 13:30:46 Connected to Naveego Legacy API
+07/01/2019 13:30:46 Discovering Schemas...
+07/01/2019 13:30:46 Schemas found: 5
+07/01/2019 13:30:46 Schemas returned: 5
+07/01/2019 13:30:48 Connected to Naveego Legacy API
+07/01/2019 13:30:48 Discovering Schemas...
+07/01/2019 13:30:48 Schemas found: 5
+07/01/2019 13:30:48 Schemas returned: 5
+07/01/2019 13:30:50 Connected to Naveego Legacy API
+07/01/2019 13:30:50 Discovering Schemas...
+07/01/2019 13:30:50 Schemas found: 5
+07/01/2019 13:30:50 Schemas returned: 5
+07/01/2019 13:30:52 Connected to Naveego Legacy API
+07/01/2019 13:30:52 Discovering Schemas...
+07/01/2019 13:30:52 Schemas found: 5
+07/01/2019 13:30:52 Schemas returned: 5
+07/01/2019 13:30:54 Connected to Naveego Legacy API
+07/01/2019 13:30:54 Discovering Schemas...
+07/01/2019 13:30:54 Schemas found: 5
+07/01/2019 13:30:54 Schemas returned: 5
+07/01/2019 13:30:56 Connected to Naveego Legacy API
+07/01/2019 13:30:56 Discovering Schemas...
+07/01/2019 13:30:56 Schemas found: 5
+07/01/2019 13:30:56 Schemas returned: 5
+07/01/2019 13:30:58 Connected to Naveego Legacy API
+07/01/2019 13:30:58 Discovering Schemas...
+07/01/2019 13:30:58 Schemas found: 5
+07/01/2019 13:30:58 Schemas returned: 5
+07/01/2019 13:31:01 Connected to Naveego Legacy API
+07/01/2019 13:31:01 Discovering Schemas...
+07/01/2019 13:31:01 Schemas found: 5
+07/01/2019 13:31:01 Schemas returned: 5
+07/01/2019 13:31:03 Connected to Naveego Legacy API
+07/01/2019 13:31:03 Discovering Schemas...
+07/01/2019 13:31:03 Schemas found: 5
+07/01/2019 13:31:03 Schemas returned: 5
+07/01/2019 13:31:05 Connected to Naveego Legacy API
+07/01/2019 13:31:05 Discovering Schemas...
+07/01/2019 13:31:05 Schemas found: 5
+07/01/2019 13:31:05 Schemas returned: 5
+07/01/2019 13:31:07 Connected to Naveego Legacy API
+07/01/2019 13:31:07 Discovering Schemas...
+07/01/2019 13:31:07 Schemas found: 5
+07/01/2019 13:31:07 Schemas returned: 5
+07/01/2019 13:31:09 Connected to Naveego Legacy API
+07/01/2019 13:31:09 Discovering Schemas...
+07/01/2019 13:31:09 Schemas found: 5
+07/01/2019 13:31:09 Schemas returned: 5
+07/01/2019 13:31:11 Connected to Naveego Legacy API
+07/01/2019 13:31:11 Discovering Schemas...
+07/01/2019 13:31:11 Schemas found: 5
+07/01/2019 13:31:11 Schemas returned: 5
+07/01/2019 13:31:13 Connected to Naveego Legacy API
+07/01/2019 13:31:13 Discovering Schemas...
+07/01/2019 13:31:14 Schemas found: 5
+07/01/2019 13:31:14 Schemas returned: 5
+07/01/2019 13:31:16 Connected to Naveego Legacy API
+07/01/2019 13:31:16 Discovering Schemas...
+07/01/2019 13:31:16 Schemas found: 5
+07/01/2019 13:31:16 Schemas returned: 5
+07/01/2019 13:31:18 Connected to Naveego Legacy API
+07/01/2019 13:31:18 Discovering Schemas...
+07/01/2019 13:31:18 Schemas found: 5
+07/01/2019 13:31:18 Schemas returned: 5
+07/01/2019 13:31:20 Connected to Naveego Legacy API
+07/01/2019 13:31:20 Discovering Schemas...
+07/01/2019 13:31:20 Schemas found: 5
+07/01/2019 13:31:20 Schemas returned: 5
+07/01/2019 13:31:22 Connected to Naveego Legacy API
+07/01/2019 13:31:22 Discovering Schemas...
+07/01/2019 13:31:22 Schemas found: 5
+07/01/2019 13:31:22 Schemas returned: 5
+07/01/2019 13:31:24 Connected to Naveego Legacy API
+07/01/2019 13:31:24 Discovering Schemas...
+07/01/2019 13:31:24 Schemas found: 5
+07/01/2019 13:31:24 Schemas returned: 5
+07/01/2019 13:31:26 Connected to Naveego Legacy API
+07/01/2019 13:31:26 Discovering Schemas...
+07/01/2019 13:31:26 Schemas found: 5
+07/01/2019 13:31:26 Schemas returned: 5
+07/01/2019 13:31:28 Connected to Naveego Legacy API
+07/01/2019 13:31:28 Discovering Schemas...
+07/01/2019 13:31:28 Schemas found: 5
+07/01/2019 13:31:28 Schemas returned: 5
+07/01/2019 13:31:30 Connected to Naveego Legacy API
+07/01/2019 13:31:30 Discovering Schemas...
+07/01/2019 13:31:30 Schemas found: 5
+07/01/2019 13:31:30 Schemas returned: 5
+07/01/2019 13:31:32 Connected to Naveego Legacy API
+07/01/2019 13:31:32 Discovering Schemas...
+07/01/2019 13:31:32 Schemas found: 5
+07/01/2019 13:31:32 Schemas returned: 5
+07/01/2019 13:31:34 Connected to Naveego Legacy API
+07/01/2019 13:31:34 Discovering Schemas...
+07/01/2019 13:31:34 Schemas found: 5
+07/01/2019 13:31:34 Schemas returned: 5
+07/01/2019 13:31:36 Connected to Naveego Legacy API
+07/01/2019 13:31:36 Discovering Schemas...
+07/01/2019 13:31:37 Schemas found: 5
+07/01/2019 13:31:37 Schemas returned: 5
+07/01/2019 13:31:39 Connected to Naveego Legacy API
+07/01/2019 13:31:39 Discovering Schemas...
+07/01/2019 13:31:39 Schemas found: 5
+07/01/2019 13:31:39 Schemas returned: 5
+07/01/2019 13:31:41 Connected to Naveego Legacy API
+07/01/2019 13:31:41 Discovering Schemas...
+07/01/2019 13:31:41 Schemas found: 5
+07/01/2019 13:31:41 Schemas returned: 5
+07/01/2019 13:31:43 Connected to Naveego Legacy API
+07/01/2019 13:31:43 Discovering Schemas...
+07/01/2019 13:31:43 Schemas found: 5
+07/01/2019 13:31:43 Schemas returned: 5
+07/01/2019 13:31:45 Connected to Naveego Legacy API
+07/01/2019 13:31:45 Discovering Schemas...
+07/01/2019 13:31:45 Schemas found: 5
+07/01/2019 13:31:45 Schemas returned: 5
+07/01/2019 13:31:48 Connected to Naveego Legacy API
+07/01/2019 13:31:48 Discovering Schemas...
+07/01/2019 13:31:48 Schemas found: 5
+07/01/2019 13:31:48 Schemas returned: 5
+07/01/2019 13:31:50 Connected to Naveego Legacy API
+07/01/2019 13:31:50 Discovering Schemas...
+07/01/2019 13:31:50 Schemas found: 5
+07/01/2019 13:31:50 Schemas returned: 5
+07/01/2019 13:31:52 Connected to Naveego Legacy API
+07/01/2019 13:31:52 Discovering Schemas...
+07/01/2019 13:31:52 Schemas found: 5
+07/01/2019 13:31:52 Schemas returned: 5
+07/01/2019 13:31:54 Connected to Naveego Legacy API
+07/01/2019 13:31:54 Discovering Schemas...
+07/01/2019 13:31:54 Schemas found: 5
+07/01/2019 13:31:54 Schemas returned: 5
+07/01/2019 13:31:56 Connected to Naveego Legacy API
+07/01/2019 13:31:56 Discovering Schemas...
+07/01/2019 13:31:56 Schemas found: 5
+07/01/2019 13:31:56 Schemas returned: 5
+07/01/2019 13:31:58 Connected to Naveego Legacy API
+07/01/2019 13:31:58 Discovering Schemas...
+07/01/2019 13:31:58 Schemas found: 5
+07/01/2019 13:31:58 Schemas returned: 5
+07/01/2019 13:32:00 Connected to Naveego Legacy API
+07/01/2019 13:32:00 Discovering Schemas...
+07/01/2019 13:32:00 Schemas found: 5
+07/01/2019 13:32:00 Schemas returned: 5
+07/01/2019 13:32:02 Connected to Naveego Legacy API
+07/01/2019 13:32:02 Discovering Schemas...
+07/01/2019 13:32:02 Schemas found: 5
+07/01/2019 13:32:02 Schemas returned: 5
+07/01/2019 13:32:04 Connected to Naveego Legacy API
+07/01/2019 13:32:04 Discovering Schemas...
+07/01/2019 13:32:04 Schemas found: 5
+07/01/2019 13:32:04 Schemas returned: 5
+07/01/2019 13:32:06 Connected to Naveego Legacy API
+07/01/2019 13:32:06 Discovering Schemas...
+07/01/2019 13:32:06 Schemas found: 5
+07/01/2019 13:32:06 Schemas returned: 5
+07/01/2019 13:32:09 Connected to Naveego Legacy API
+07/01/2019 13:32:09 Discovering Schemas...
+07/01/2019 13:32:09 Schemas found: 5
+07/01/2019 13:32:09 Schemas returned: 5
+07/01/2019 13:32:11 Connected to Naveego Legacy API
+07/01/2019 13:32:11 Discovering Schemas...
+07/01/2019 13:32:11 Schemas found: 5
+07/01/2019 13:32:11 Schemas returned: 5
+07/01/2019 13:32:13 Connected to Naveego Legacy API
+07/01/2019 13:32:13 Discovering Schemas...
+07/01/2019 13:32:13 Schemas found: 5
+07/01/2019 13:32:13 Schemas returned: 5
+07/01/2019 13:32:15 Connected to Naveego Legacy API
+07/01/2019 13:32:15 Discovering Schemas...
+07/01/2019 13:32:15 Schemas found: 5
+07/01/2019 13:32:15 Schemas returned: 5
+07/01/2019 13:32:17 Connected to Naveego Legacy API
+07/01/2019 13:32:17 Discovering Schemas...
+07/01/2019 13:32:17 Schemas found: 5
+07/01/2019 13:32:17 Schemas returned: 5
+07/01/2019 13:32:19 Connected to Naveego Legacy API
+07/01/2019 13:32:19 Discovering Schemas...
+07/01/2019 13:32:19 Schemas found: 5
+07/01/2019 13:32:19 Schemas returned: 5
+07/01/2019 13:32:21 Connected to Naveego Legacy API
+07/01/2019 13:32:21 Discovering Schemas...
+07/01/2019 13:32:21 Schemas found: 5
+07/01/2019 13:32:21 Schemas returned: 5
+07/01/2019 13:32:23 Connected to Naveego Legacy API
+07/01/2019 13:32:23 Discovering Schemas...
+07/01/2019 13:32:23 Schemas found: 5
+07/01/2019 13:32:23 Schemas returned: 5
+07/01/2019 13:32:25 Connected to Naveego Legacy API
+07/01/2019 13:32:25 Discovering Schemas...
+07/01/2019 13:32:25 Schemas found: 5
+07/01/2019 13:32:25 Schemas returned: 5
+07/01/2019 13:32:27 Connected to Naveego Legacy API
+07/01/2019 13:32:27 Discovering Schemas...
+07/01/2019 13:32:27 Schemas found: 5
+07/01/2019 13:32:27 Schemas returned: 5
+07/01/2019 13:32:29 Connected to Naveego Legacy API
+07/01/2019 13:32:29 Discovering Schemas...
+07/01/2019 13:32:29 Schemas found: 5
+07/01/2019 13:32:29 Schemas returned: 5
+07/01/2019 13:32:31 Connected to Naveego Legacy API
+07/01/2019 13:32:31 Discovering Schemas...
+07/01/2019 13:32:32 Schemas found: 5
+07/01/2019 13:32:32 Schemas returned: 5
+07/01/2019 13:32:34 Connected to Naveego Legacy API
+07/01/2019 13:32:34 Discovering Schemas...
+07/01/2019 13:32:34 Schemas found: 5
+07/01/2019 13:32:34 Schemas returned: 5
+07/01/2019 13:32:36 Connected to Naveego Legacy API
+07/01/2019 13:32:36 Discovering Schemas...
+07/01/2019 13:32:36 Schemas found: 5
+07/01/2019 13:32:36 Schemas returned: 5
+07/01/2019 13:32:38 Connected to Naveego Legacy API
+07/01/2019 13:32:38 Discovering Schemas...
+07/01/2019 13:32:38 Schemas found: 5
+07/01/2019 13:32:38 Schemas returned: 5
+07/01/2019 13:32:40 Connected to Naveego Legacy API
+07/01/2019 13:32:40 Discovering Schemas...
+07/01/2019 13:32:40 Schemas found: 5
+07/01/2019 13:32:40 Schemas returned: 5
+07/01/2019 13:32:42 Connected to Naveego Legacy API
+07/01/2019 13:32:42 Discovering Schemas...
+07/01/2019 13:32:42 Schemas found: 5
+07/01/2019 13:32:42 Schemas returned: 5
+07/01/2019 13:32:44 Connected to Naveego Legacy API
+07/01/2019 13:32:44 Discovering Schemas...
+07/01/2019 13:32:45 Schemas found: 5
+07/01/2019 13:32:45 Schemas returned: 5
+07/01/2019 13:32:47 Connected to Naveego Legacy API
+07/01/2019 13:32:47 Discovering Schemas...
+07/01/2019 13:32:47 Schemas found: 5
+07/01/2019 13:32:47 Schemas returned: 5
+07/01/2019 13:32:49 Connected to Naveego Legacy API
+07/01/2019 13:32:49 Discovering Schemas...
+07/01/2019 13:32:49 Schemas found: 5
+07/01/2019 13:32:49 Schemas returned: 5
+07/01/2019 13:32:51 Connected to Naveego Legacy API
+07/01/2019 13:32:51 Discovering Schemas...
+07/01/2019 13:32:51 Schemas found: 5
+07/01/2019 13:32:51 Schemas returned: 5
+07/01/2019 13:32:53 Connected to Naveego Legacy API
+07/01/2019 13:32:53 Discovering Schemas...
+07/01/2019 13:32:53 Schemas found: 5
+07/01/2019 13:32:53 Schemas returned: 5
+07/01/2019 13:32:56 Connected to Naveego Legacy API
+07/01/2019 13:32:56 Discovering Schemas...
+07/01/2019 13:32:56 Schemas found: 5
+07/01/2019 13:32:56 Schemas returned: 5
+07/01/2019 13:32:58 Connected to Naveego Legacy API
+07/01/2019 13:32:58 Discovering Schemas...
+07/01/2019 13:32:58 Schemas found: 5
+07/01/2019 13:32:58 Schemas returned: 5
+07/01/2019 13:33:00 Connected to Naveego Legacy API
+07/01/2019 13:33:00 Discovering Schemas...
+07/01/2019 13:33:01 Schemas found: 5
+07/01/2019 13:33:01 Schemas returned: 5
+07/01/2019 13:33:03 Connected to Naveego Legacy API
+07/01/2019 13:33:03 Discovering Schemas...
+07/01/2019 13:33:03 Schemas found: 5
+07/01/2019 13:33:03 Schemas returned: 5
+07/01/2019 13:33:05 Connected to Naveego Legacy API
+07/01/2019 13:33:05 Discovering Schemas...
+07/01/2019 13:33:05 Schemas found: 5
+07/01/2019 13:33:05 Schemas returned: 5
+07/01/2019 13:33:08 Connected to Naveego Legacy API
+07/01/2019 13:33:08 Discovering Schemas...
+07/01/2019 13:33:08 Schemas found: 5
+07/01/2019 13:33:08 Schemas returned: 5
+07/01/2019 13:33:10 Connected to Naveego Legacy API
+07/01/2019 13:33:10 Discovering Schemas...
+07/01/2019 13:33:10 Schemas found: 5
+07/01/2019 13:33:10 Schemas returned: 5
+07/01/2019 13:33:12 Connected to Naveego Legacy API
+07/01/2019 13:33:12 Discovering Schemas...
+07/01/2019 13:33:12 Schemas found: 5
+07/01/2019 13:33:12 Schemas returned: 5
+07/01/2019 13:33:15 Connected to Naveego Legacy API
+07/01/2019 13:33:15 Discovering Schemas...
+07/01/2019 13:33:15 Schemas found: 5
+07/01/2019 13:33:15 Schemas returned: 5
+07/01/2019 13:33:17 Connected to Naveego Legacy API
+07/01/2019 13:33:17 Discovering Schemas...
+07/01/2019 13:33:17 Schemas found: 5
+07/01/2019 13:33:17 Schemas returned: 5
+07/01/2019 13:33:19 Connected to Naveego Legacy API
+07/01/2019 13:33:19 Discovering Schemas...
+07/01/2019 13:33:19 Schemas found: 5
+07/01/2019 13:33:19 Schemas returned: 5
+07/01/2019 13:33:21 Connected to Naveego Legacy API
+07/01/2019 13:33:21 Discovering Schemas...
+07/01/2019 13:33:21 Schemas found: 5
+07/01/2019 13:33:21 Schemas returned: 5
+07/01/2019 13:33:23 Connected to Naveego Legacy API
+07/01/2019 13:33:23 Discovering Schemas...
+07/01/2019 13:33:24 Schemas found: 5
+07/01/2019 13:33:24 Schemas returned: 5
+07/01/2019 13:33:26 Connected to Naveego Legacy API
+07/01/2019 13:33:26 Discovering Schemas...
+07/01/2019 13:33:26 Schemas found: 5
+07/01/2019 13:33:26 Schemas returned: 5
+07/01/2019 13:33:28 Connected to Naveego Legacy API
+07/01/2019 13:33:28 Discovering Schemas...
+07/01/2019 13:33:28 Schemas found: 5
+07/01/2019 13:33:28 Schemas returned: 5
+07/01/2019 13:33:31 Connected to Naveego Legacy API
+07/01/2019 13:33:31 Discovering Schemas...
+07/01/2019 13:33:31 Schemas found: 5
+07/01/2019 13:33:31 Schemas returned: 5
+07/01/2019 13:33:33 Connected to Naveego Legacy API
+07/01/2019 13:33:33 Discovering Schemas...
+07/01/2019 13:33:33 Schemas found: 5
+07/01/2019 13:33:33 Schemas returned: 5
+07/01/2019 13:33:35 Connected to Naveego Legacy API
+07/01/2019 13:33:35 Discovering Schemas...
+07/01/2019 13:33:35 Schemas found: 5
+07/01/2019 13:33:35 Schemas returned: 5
+07/01/2019 13:33:37 Connected to Naveego Legacy API
+07/01/2019 13:33:37 Discovering Schemas...
+07/01/2019 13:33:37 Schemas found: 5
+07/01/2019 13:33:37 Schemas returned: 5
+07/01/2019 13:33:40 Connected to Naveego Legacy API
+07/01/2019 13:33:40 Discovering Schemas...
+07/01/2019 13:33:40 Schemas found: 5
+07/01/2019 13:33:40 Schemas returned: 5
+07/01/2019 13:33:42 Connected to Naveego Legacy API
+07/01/2019 13:33:42 Discovering Schemas...
+07/01/2019 13:33:42 Schemas found: 5
+07/01/2019 13:33:42 Schemas returned: 5
+07/01/2019 13:33:44 Connected to Naveego Legacy API
+07/01/2019 13:33:44 Discovering Schemas...
+07/01/2019 13:33:44 Schemas found: 5
+07/01/2019 13:33:44 Schemas returned: 5
+07/01/2019 13:33:46 Connected to Naveego Legacy API
+07/01/2019 13:33:46 Discovering Schemas...
+07/01/2019 13:33:46 Schemas found: 5
+07/01/2019 13:33:46 Schemas returned: 5
+07/01/2019 13:33:48 Connected to Naveego Legacy API
+07/01/2019 13:33:48 Discovering Schemas...
+07/01/2019 13:33:48 Schemas found: 5
+07/01/2019 13:33:48 Schemas returned: 5
+07/01/2019 13:33:51 Connected to Naveego Legacy API
+07/01/2019 13:33:51 Discovering Schemas...
+07/01/2019 13:33:51 Schemas found: 5
+07/01/2019 13:33:51 Schemas returned: 5
+07/01/2019 13:33:53 Connected to Naveego Legacy API
+07/01/2019 13:33:53 Discovering Schemas...
+07/01/2019 13:33:53 Schemas found: 5
+07/01/2019 13:33:53 Schemas returned: 5
+07/01/2019 13:33:55 Connected to Naveego Legacy API
+07/01/2019 13:33:55 Discovering Schemas...
+07/01/2019 13:33:56 Schemas found: 5
+07/01/2019 13:33:56 Schemas returned: 5
+07/01/2019 13:33:58 Connected to Naveego Legacy API
+07/01/2019 13:33:58 Discovering Schemas...
+07/01/2019 13:33:58 Schemas found: 5
+07/01/2019 13:33:58 Schemas returned: 5
+07/01/2019 13:34:00 Connected to Naveego Legacy API
+07/01/2019 13:34:00 Discovering Schemas...
+07/01/2019 13:34:00 Schemas found: 5
+07/01/2019 13:34:00 Schemas returned: 5
+07/01/2019 13:34:02 Connected to Naveego Legacy API
+07/01/2019 13:34:02 Discovering Schemas...
+07/01/2019 13:34:03 Schemas found: 5
+07/01/2019 13:34:03 Schemas returned: 5
+07/01/2019 13:34:05 Connected to Naveego Legacy API
+07/01/2019 13:34:05 Discovering Schemas...
+07/01/2019 13:34:05 Schemas found: 5
+07/01/2019 13:34:05 Schemas returned: 5
+07/01/2019 13:34:07 Connected to Naveego Legacy API
+07/01/2019 13:34:07 Discovering Schemas...
+07/01/2019 13:34:07 Schemas found: 5
+07/01/2019 13:34:07 Schemas returned: 5
+07/01/2019 13:34:09 Connected to Naveego Legacy API
+07/01/2019 13:34:09 Discovering Schemas...
+07/01/2019 13:34:10 Schemas found: 5
+07/01/2019 13:34:10 Schemas returned: 5
+07/01/2019 13:34:12 Connected to Naveego Legacy API
+07/01/2019 13:34:12 Discovering Schemas...
+07/01/2019 13:34:12 Schemas found: 5
+07/01/2019 13:34:12 Schemas returned: 5
+07/01/2019 13:34:14 Connected to Naveego Legacy API
+07/01/2019 13:34:14 Discovering Schemas...
+07/01/2019 13:34:14 Schemas found: 5
+07/01/2019 13:34:14 Schemas returned: 5
+07/01/2019 13:34:17 Connected to Naveego Legacy API
+07/01/2019 13:34:17 Discovering Schemas...
+07/01/2019 13:34:17 Schemas found: 5
+07/01/2019 13:34:17 Schemas returned: 5
+07/01/2019 13:34:19 Connected to Naveego Legacy API
+07/01/2019 13:34:19 Discovering Schemas...
+07/01/2019 13:34:19 Schemas found: 5
+07/01/2019 13:34:19 Schemas returned: 5
+07/01/2019 13:34:21 Connected to Naveego Legacy API
+07/01/2019 13:34:21 Discovering Schemas...
+07/01/2019 13:34:21 Schemas found: 5
+07/01/2019 13:34:21 Schemas returned: 5
+07/01/2019 13:34:23 Connected to Naveego Legacy API
+07/01/2019 13:34:23 Discovering Schemas...
+07/01/2019 13:34:23 Schemas found: 5
+07/01/2019 13:34:23 Schemas returned: 5
+07/01/2019 13:34:26 Connected to Naveego Legacy API
+07/01/2019 13:34:26 Discovering Schemas...
+07/01/2019 13:34:26 Schemas found: 5
+07/01/2019 13:34:26 Schemas returned: 5
+07/01/2019 13:34:28 Connected to Naveego Legacy API
+07/01/2019 13:34:28 Discovering Schemas...
+07/01/2019 13:34:28 Schemas found: 5
+07/01/2019 13:34:28 Schemas returned: 5
+07/01/2019 13:34:30 Connected to Naveego Legacy API
+07/01/2019 13:34:30 Discovering Schemas...
+07/01/2019 13:34:31 Schemas found: 5
+07/01/2019 13:34:31 Schemas returned: 5
+07/01/2019 13:34:33 Connected to Naveego Legacy API
+07/01/2019 13:34:33 Discovering Schemas...
+07/01/2019 13:34:33 Schemas found: 5
+07/01/2019 13:34:33 Schemas returned: 5
+07/01/2019 13:34:35 Connected to Naveego Legacy API
+07/01/2019 13:34:35 Discovering Schemas...
+07/01/2019 13:34:35 Schemas found: 5
+07/01/2019 13:34:35 Schemas returned: 5
+07/01/2019 13:34:37 Connected to Naveego Legacy API
+07/01/2019 13:34:37 Discovering Schemas...
+07/01/2019 13:34:37 Schemas found: 5
+07/01/2019 13:34:37 Schemas returned: 5
+07/01/2019 13:34:39 Connected to Naveego Legacy API
+07/01/2019 13:34:39 Discovering Schemas...
+07/01/2019 13:34:39 Schemas found: 5
+07/01/2019 13:34:39 Schemas returned: 5
+07/01/2019 13:34:41 Connected to Naveego Legacy API
+07/01/2019 13:34:41 Discovering Schemas...
+07/01/2019 13:34:41 Schemas found: 5
+07/01/2019 13:34:41 Schemas returned: 5
+07/01/2019 13:34:43 Connected to Naveego Legacy API
+07/01/2019 13:34:43 Discovering Schemas...
+07/01/2019 13:34:43 Schemas found: 5
+07/01/2019 13:34:43 Schemas returned: 5
+07/01/2019 13:34:45 Connected to Naveego Legacy API
+07/01/2019 13:34:45 Discovering Schemas...
+07/01/2019 13:34:45 Schemas found: 5
+07/01/2019 13:34:45 Schemas returned: 5
+07/01/2019 13:34:47 Connected to Naveego Legacy API
+07/01/2019 13:34:47 Discovering Schemas...
+07/01/2019 13:34:47 Schemas found: 5
+07/01/2019 13:34:47 Schemas returned: 5
+07/01/2019 13:34:49 Connected to Naveego Legacy API
+07/01/2019 13:34:49 Discovering Schemas...
+07/01/2019 13:34:49 Schemas found: 5
+07/01/2019 13:34:49 Schemas returned: 5
+07/01/2019 13:34:51 Connected to Naveego Legacy API
+07/01/2019 13:34:51 Discovering Schemas...
+07/01/2019 13:34:51 Schemas found: 5
+07/01/2019 13:34:51 Schemas returned: 5
+07/01/2019 13:34:53 Connected to Naveego Legacy API
+07/01/2019 13:34:53 Discovering Schemas...
+07/01/2019 13:34:53 Schemas found: 5
+07/01/2019 13:34:53 Schemas returned: 5
+07/01/2019 13:34:55 Connected to Naveego Legacy API
+07/01/2019 13:34:55 Discovering Schemas...
+07/01/2019 13:34:56 Schemas found: 5
+07/01/2019 13:34:56 Schemas returned: 5
+07/01/2019 13:34:58 Connected to Naveego Legacy API
+07/01/2019 13:34:58 Discovering Schemas...
+07/01/2019 13:34:58 Schemas found: 5
+07/01/2019 13:34:58 Schemas returned: 5
+07/01/2019 13:35:00 Connected to Naveego Legacy API
+07/01/2019 13:35:00 Discovering Schemas...
+07/01/2019 13:35:00 Schemas found: 5
+07/01/2019 13:35:00 Schemas returned: 5
+07/01/2019 13:35:02 Connected to Naveego Legacy API
+07/01/2019 13:35:02 Discovering Schemas...
+07/01/2019 13:35:02 Schemas found: 5
+07/01/2019 13:35:02 Schemas returned: 5
+07/01/2019 13:35:04 Connected to Naveego Legacy API
+07/01/2019 13:35:04 Discovering Schemas...
+07/01/2019 13:35:04 Schemas found: 5
+07/01/2019 13:35:04 Schemas returned: 5
+07/01/2019 13:35:06 Connected to Naveego Legacy API
+07/01/2019 13:35:06 Discovering Schemas...
+07/01/2019 13:35:06 Schemas found: 5
+07/01/2019 13:35:06 Schemas returned: 5
+07/01/2019 13:35:08 Connected to Naveego Legacy API
+07/01/2019 13:35:08 Discovering Schemas...
+07/01/2019 13:35:08 Schemas found: 5
+07/01/2019 13:35:08 Schemas returned: 5
+07/01/2019 13:35:11 Connected to Naveego Legacy API
+07/01/2019 13:35:11 Discovering Schemas...
+07/01/2019 13:35:11 Schemas found: 5
+07/01/2019 13:35:11 Schemas returned: 5
+07/01/2019 13:35:13 Connected to Naveego Legacy API
+07/01/2019 13:35:13 Discovering Schemas...
+07/01/2019 13:35:13 Schemas found: 5
+07/01/2019 13:35:13 Schemas returned: 5
+07/01/2019 13:35:15 Connected to Naveego Legacy API
+07/01/2019 13:35:15 Discovering Schemas...
+07/01/2019 13:35:15 Schemas found: 5
+07/01/2019 13:35:15 Schemas returned: 5
+07/01/2019 13:35:17 Connected to Naveego Legacy API
+07/01/2019 13:35:17 Discovering Schemas...
+07/01/2019 13:35:17 Schemas found: 5
+07/01/2019 13:35:17 Schemas returned: 5
+07/01/2019 13:35:19 Connected to Naveego Legacy API
+07/01/2019 13:35:19 Discovering Schemas...
+07/01/2019 13:35:19 Schemas found: 5
+07/01/2019 13:35:19 Schemas returned: 5
+07/01/2019 13:35:21 Connected to Naveego Legacy API
+07/01/2019 13:35:21 Discovering Schemas...
+07/01/2019 13:35:21 Schemas found: 5
+07/01/2019 13:35:21 Schemas returned: 5
+07/01/2019 13:35:23 Connected to Naveego Legacy API
+07/01/2019 13:35:23 Discovering Schemas...
+07/01/2019 13:35:24 Schemas found: 5
+07/01/2019 13:35:24 Schemas returned: 5
+07/01/2019 13:35:26 Connected to Naveego Legacy API
+07/01/2019 13:35:26 Discovering Schemas...
+07/01/2019 13:35:26 Schemas found: 5
+07/01/2019 13:35:26 Schemas returned: 5
+07/01/2019 13:35:28 Connected to Naveego Legacy API
+07/01/2019 13:35:28 Discovering Schemas...
+07/01/2019 13:35:28 Schemas found: 5
+07/01/2019 13:35:28 Schemas returned: 5
+07/01/2019 13:35:31 Connected to Naveego Legacy API
+07/01/2019 13:35:31 Discovering Schemas...
+07/01/2019 13:35:31 Schemas found: 5
+07/01/2019 13:35:31 Schemas returned: 5
+07/01/2019 13:35:33 Connected to Naveego Legacy API
+07/01/2019 13:35:33 Discovering Schemas...
+07/01/2019 13:35:33 Schemas found: 5
+07/01/2019 13:35:33 Schemas returned: 5
+07/01/2019 13:35:36 Connected to Naveego Legacy API
+07/01/2019 13:35:36 Discovering Schemas...
+07/01/2019 13:35:36 Schemas found: 5
+07/01/2019 13:35:36 Schemas returned: 5
+07/01/2019 13:35:38 Connected to Naveego Legacy API
+07/01/2019 13:35:38 Discovering Schemas...
+07/01/2019 13:35:38 Schemas found: 5
+07/01/2019 13:35:38 Schemas returned: 5
+07/01/2019 13:35:40 Connected to Naveego Legacy API
+07/01/2019 13:35:40 Discovering Schemas...
+07/01/2019 13:35:40 Schemas found: 5
+07/01/2019 13:35:40 Schemas returned: 5
+07/01/2019 13:35:43 Connected to Naveego Legacy API
+07/01/2019 13:35:43 Discovering Schemas...
+07/01/2019 13:35:43 Schemas found: 5
+07/01/2019 13:35:43 Schemas returned: 5
+07/01/2019 13:35:45 Connected to Naveego Legacy API
+07/01/2019 13:35:45 Discovering Schemas...
+07/01/2019 13:35:45 Schemas found: 5
+07/01/2019 13:35:45 Schemas returned: 5
+07/01/2019 13:35:47 Connected to Naveego Legacy API
+07/01/2019 13:35:47 Discovering Schemas...
+07/01/2019 13:35:47 Schemas found: 5
+07/01/2019 13:35:47 Schemas returned: 6
+07/01/2019 13:35:48 Connected to Naveego Legacy API
+07/01/2019 13:35:48 Discovering Schemas...
+07/01/2019 13:35:48 Schemas found: 5
+07/01/2019 13:35:48 Schemas returned: 5
+07/01/2019 13:35:50 Connected to Naveego Legacy API
+07/01/2019 13:35:50 Discovering Schemas...
+07/01/2019 13:35:50 Schemas found: 5
+07/01/2019 13:35:50 Schemas returned: 5
+07/01/2019 13:35:52 Connected to Naveego Legacy API
+07/01/2019 13:35:52 Discovering Schemas...
+07/01/2019 13:35:52 Schemas found: 5
+07/01/2019 13:35:52 Schemas returned: 5
+07/01/2019 13:35:54 Connected to Naveego Legacy API
+07/01/2019 13:35:54 Discovering Schemas...
+07/01/2019 13:35:54 Schemas found: 5
+07/01/2019 13:35:54 Schemas returned: 5
+07/01/2019 13:35:56 Connected to Naveego Legacy API
+07/01/2019 13:35:56 Discovering Schemas...
+07/01/2019 13:35:56 Schemas found: 5
+07/01/2019 13:35:56 Schemas returned: 5
+07/01/2019 13:35:58 Connected to Naveego Legacy API
+07/01/2019 13:35:58 Discovering Schemas...
+07/01/2019 13:35:58 Schemas found: 5
+07/01/2019 13:35:58 Schemas returned: 5
+07/01/2019 13:36:01 Connected to Naveego Legacy API
+07/01/2019 13:36:01 Discovering Schemas...
+07/01/2019 13:36:01 Schemas found: 5
+07/01/2019 13:36:01 Schemas returned: 5
+07/01/2019 13:36:03 Connected to Naveego Legacy API
+07/01/2019 13:36:03 Discovering Schemas...
+07/01/2019 13:36:03 Schemas found: 5
+07/01/2019 13:36:03 Schemas returned: 5
+07/01/2019 13:36:05 Connected to Naveego Legacy API
+07/01/2019 13:36:05 Discovering Schemas...
+07/01/2019 13:36:05 Schemas found: 5
+07/01/2019 13:36:05 Schemas returned: 5
+07/01/2019 13:36:07 Connected to Naveego Legacy API
+07/01/2019 13:36:07 Discovering Schemas...
+07/01/2019 13:36:07 Schemas found: 5
+07/01/2019 13:36:07 Schemas returned: 5
+07/01/2019 13:36:10 Connected to Naveego Legacy API
+07/01/2019 13:36:10 Discovering Schemas...
+07/01/2019 13:36:10 Schemas found: 5
+07/01/2019 13:36:10 Schemas returned: 5
+07/01/2019 13:36:12 Connected to Naveego Legacy API
+07/01/2019 13:36:12 Discovering Schemas...
+07/01/2019 13:36:12 Schemas found: 5
+07/01/2019 13:36:12 Schemas returned: 5
+07/01/2019 13:36:14 Connected to Naveego Legacy API
+07/01/2019 13:36:14 Discovering Schemas...
+07/01/2019 13:36:14 Schemas found: 5
+07/01/2019 13:36:14 Schemas returned: 5
+07/01/2019 13:36:17 Connected to Naveego Legacy API
+07/01/2019 13:36:17 Discovering Schemas...
+07/01/2019 13:36:17 Schemas found: 5
+07/01/2019 13:36:17 Schemas returned: 5
+07/01/2019 13:36:23 Connected to Naveego Legacy API
+07/01/2019 13:36:23 Discovering Schemas...
+07/01/2019 13:36:23 Schemas found: 5
+07/01/2019 13:36:23 Schemas returned: 6
+07/01/2019 13:36:23 Connected to Naveego Legacy API
+07/01/2019 13:36:23 Discovering Schemas...
+07/01/2019 13:36:23 Schemas found: 5
+07/01/2019 13:36:23 Schemas returned: 5
+07/01/2019 13:36:26 Connected to Naveego Legacy API
+07/01/2019 13:36:26 Discovering Schemas...
+07/01/2019 13:36:26 Schemas found: 5
+07/01/2019 13:36:26 Schemas returned: 5
+07/01/2019 13:36:28 Connected to Naveego Legacy API
+07/01/2019 13:36:28 Discovering Schemas...
+07/01/2019 13:36:28 Schemas found: 5
+07/01/2019 13:36:28 Schemas returned: 5
+07/01/2019 13:36:31 Connected to Naveego Legacy API
+07/01/2019 13:36:31 Discovering Schemas...
+07/01/2019 13:36:31 Schemas found: 5
+07/01/2019 13:36:31 Schemas returned: 5
+07/01/2019 13:36:33 Connected to Naveego Legacy API
+07/01/2019 13:36:33 Discovering Schemas...
+07/01/2019 13:36:33 Schemas found: 5
+07/01/2019 13:36:33 Schemas returned: 5
+07/01/2019 13:36:35 Connected to Naveego Legacy API
+07/01/2019 13:36:35 Discovering Schemas...
+07/01/2019 13:36:35 Schemas found: 5
+07/01/2019 13:36:35 Schemas returned: 5
+07/01/2019 13:36:37 Connected to Naveego Legacy API
+07/01/2019 13:36:37 Discovering Schemas...
+07/01/2019 13:36:37 Schemas found: 5
+07/01/2019 13:36:37 Schemas returned: 5
+07/01/2019 13:36:39 Connected to Naveego Legacy API
+07/01/2019 13:36:39 Discovering Schemas...
+07/01/2019 13:36:40 Schemas found: 5
+07/01/2019 13:36:40 Schemas returned: 5
+07/01/2019 13:36:42 Connected to Naveego Legacy API
+07/01/2019 13:36:42 Discovering Schemas...
+07/01/2019 13:36:42 Schemas found: 5
+07/01/2019 13:36:42 Schemas returned: 5
+07/01/2019 13:36:44 Connected to Naveego Legacy API
+07/01/2019 13:36:44 Discovering Schemas...
+07/01/2019 13:36:44 Schemas found: 5
+07/01/2019 13:36:44 Schemas returned: 5
+07/01/2019 13:36:46 Connected to Naveego Legacy API
+07/01/2019 13:36:46 Discovering Schemas...
+07/01/2019 13:36:46 Schemas found: 5
+07/01/2019 13:36:46 Schemas returned: 5
+07/01/2019 13:36:48 Connected to Naveego Legacy API
+07/01/2019 13:36:48 Discovering Schemas...
+07/01/2019 13:36:48 Schemas found: 5
+07/01/2019 13:36:48 Schemas returned: 5
+07/01/2019 13:36:50 Connected to Naveego Legacy API
+07/01/2019 13:36:50 Discovering Schemas...
+07/01/2019 13:36:50 Schemas found: 5
+07/01/2019 13:36:50 Schemas returned: 5
+07/01/2019 13:36:52 Connected to Naveego Legacy API
+07/01/2019 13:36:52 Discovering Schemas...
+07/01/2019 13:36:53 Schemas found: 5
+07/01/2019 13:36:53 Schemas returned: 5
+07/01/2019 13:36:55 Connected to Naveego Legacy API
+07/01/2019 13:36:55 Discovering Schemas...
+07/01/2019 13:36:55 Schemas found: 5
+07/01/2019 13:36:55 Schemas returned: 5
+07/01/2019 13:36:57 Connected to Naveego Legacy API
+07/01/2019 13:36:57 Discovering Schemas...
+07/01/2019 13:36:58 Schemas found: 5
+07/01/2019 13:36:58 Schemas returned: 5
+07/01/2019 13:37:00 Connected to Naveego Legacy API
+07/01/2019 13:37:00 Discovering Schemas...
+07/01/2019 13:37:00 Schemas found: 5
+07/01/2019 13:37:00 Schemas returned: 5
+07/01/2019 13:37:01 Connected to Naveego Legacy API
+07/01/2019 13:37:01 Discovering Schemas...
+07/01/2019 13:37:01 Schemas found: 5
+07/01/2019 13:37:02 Connected to Naveego Legacy API
+07/01/2019 13:37:02 Discovering Schemas...
+07/01/2019 13:37:03 Schemas found: 5
+07/01/2019 13:37:03 Schemas returned: 5
+07/01/2019 13:37:05 Connected to Naveego Legacy API
+07/01/2019 13:37:05 Discovering Schemas...
+07/01/2019 13:37:05 Schemas found: 5
+07/01/2019 13:37:05 Schemas returned: 5
+07/01/2019 13:37:07 Connected to Naveego Legacy API
+07/01/2019 13:37:07 Discovering Schemas...
+07/01/2019 13:37:07 Schemas found: 5
+07/01/2019 13:37:07 Schemas returned: 5
+07/01/2019 13:37:09 Connected to Naveego Legacy API
+07/01/2019 13:37:09 Discovering Schemas...
+07/01/2019 13:37:09 Schemas found: 5
+07/01/2019 13:37:09 Schemas returned: 5
+07/01/2019 13:37:11 Connected to Naveego Legacy API
+07/01/2019 13:37:11 Discovering Schemas...
+07/01/2019 13:37:11 Schemas found: 5
+07/01/2019 13:37:11 Schemas returned: 5
+07/01/2019 13:37:13 Connected to Naveego Legacy API
+07/01/2019 13:37:13 Discovering Schemas...
+07/01/2019 13:37:13 Schemas found: 5
+07/01/2019 13:37:13 Schemas returned: 5
+07/01/2019 13:37:15 Connected to Naveego Legacy API
+07/01/2019 13:37:15 Discovering Schemas...
+07/01/2019 13:37:15 Schemas found: 5
+07/01/2019 13:37:15 Schemas returned: 5
+07/01/2019 13:37:17 Connected to Naveego Legacy API
+07/01/2019 13:37:17 Discovering Schemas...
+07/01/2019 13:37:17 Schemas found: 5
+07/01/2019 13:37:17 Schemas returned: 5
+07/01/2019 13:37:20 Connected to Naveego Legacy API
+07/01/2019 13:37:20 Discovering Schemas...
+07/01/2019 13:37:20 Schemas found: 5
+07/01/2019 13:37:20 Schemas returned: 5
+07/01/2019 13:37:22 Connected to Naveego Legacy API
+07/01/2019 13:37:22 Discovering Schemas...
+07/01/2019 13:37:22 Schemas found: 5
+07/01/2019 13:37:22 Schemas returned: 5
+07/01/2019 13:37:24 Connected to Naveego Legacy API
+07/01/2019 13:37:24 Discovering Schemas...
+07/01/2019 13:37:24 Schemas found: 5
+07/01/2019 13:37:24 Schemas returned: 5
+07/01/2019 13:37:26 Connected to Naveego Legacy API
+07/01/2019 13:37:26 Discovering Schemas...
+07/01/2019 13:37:26 Schemas found: 5
+07/01/2019 13:37:26 Schemas returned: 5
+07/01/2019 13:37:28 Connected to Naveego Legacy API
+07/01/2019 13:37:28 Discovering Schemas...
+07/01/2019 13:37:28 Schemas found: 5
+07/01/2019 13:37:28 Schemas returned: 5
+07/01/2019 13:37:30 Connected to Naveego Legacy API
+07/01/2019 13:37:30 Discovering Schemas...
+07/01/2019 13:37:30 Schemas found: 5
+07/01/2019 13:37:30 Schemas returned: 5
+07/01/2019 13:37:32 Connected to Naveego Legacy API
+07/01/2019 13:37:32 Discovering Schemas...
+07/01/2019 13:37:32 Schemas found: 5
+07/01/2019 13:37:32 Schemas returned: 5
+07/01/2019 13:37:35 Connected to Naveego Legacy API
+07/01/2019 13:37:35 Discovering Schemas...
+07/01/2019 13:37:35 Schemas found: 5
+07/01/2019 13:37:35 Schemas returned: 5
+07/01/2019 13:37:37 Connected to Naveego Legacy API
+07/01/2019 13:37:37 Discovering Schemas...
+07/01/2019 13:37:37 Schemas found: 5
+07/01/2019 13:37:37 Schemas returned: 5
+07/01/2019 13:37:39 Connected to Naveego Legacy API
+07/01/2019 13:37:39 Discovering Schemas...
+07/01/2019 13:37:39 Schemas found: 5
+07/01/2019 13:37:39 Schemas returned: 5
+07/01/2019 13:37:41 Connected to Naveego Legacy API
+07/01/2019 13:37:41 Discovering Schemas...
+07/01/2019 13:37:41 Schemas found: 5
+07/01/2019 13:37:41 Schemas returned: 5
+07/01/2019 13:37:43 Connected to Naveego Legacy API
+07/01/2019 13:37:43 Discovering Schemas...
+07/01/2019 13:37:43 Schemas found: 5
+07/01/2019 13:37:43 Schemas returned: 5
+07/01/2019 13:37:45 Connected to Naveego Legacy API
+07/01/2019 13:37:45 Discovering Schemas...
+07/01/2019 13:37:45 Schemas found: 5
+07/01/2019 13:37:45 Schemas returned: 5
+07/01/2019 13:37:47 Connected to Naveego Legacy API
+07/01/2019 13:37:47 Discovering Schemas...
+07/01/2019 13:37:47 Schemas found: 5
+07/01/2019 13:37:47 Schemas returned: 5
+07/01/2019 13:37:49 Connected to Naveego Legacy API
+07/01/2019 13:37:49 Discovering Schemas...
+07/01/2019 13:37:49 Schemas found: 5
+07/01/2019 13:37:49 Schemas returned: 5
+07/01/2019 13:37:51 Connected to Naveego Legacy API
+07/01/2019 13:37:51 Discovering Schemas...
+07/01/2019 13:37:51 Schemas found: 5
+07/01/2019 13:37:51 Schemas returned: 5
+07/01/2019 13:37:53 Connected to Naveego Legacy API
+07/01/2019 13:37:53 Discovering Schemas...
+07/01/2019 13:37:53 Schemas found: 5
+07/01/2019 13:37:53 Schemas returned: 5
+07/01/2019 13:37:55 Connected to Naveego Legacy API
+07/01/2019 13:37:55 Discovering Schemas...
+07/01/2019 13:37:55 Schemas found: 5
+07/01/2019 13:37:55 Schemas returned: 5
+07/01/2019 13:37:57 Connected to Naveego Legacy API
+07/01/2019 13:37:57 Discovering Schemas...
+07/01/2019 13:37:57 Schemas found: 5
+07/01/2019 13:37:57 Schemas returned: 5
+07/01/2019 13:37:59 Connected to Naveego Legacy API
+07/01/2019 13:37:59 Discovering Schemas...
+07/01/2019 13:38:00 Schemas found: 5
+07/01/2019 13:38:00 Schemas returned: 5
+07/01/2019 13:38:02 Connected to Naveego Legacy API
+07/01/2019 13:38:02 Discovering Schemas...
+07/01/2019 13:38:02 Schemas found: 5
+07/01/2019 13:38:02 Schemas returned: 5
+07/01/2019 13:38:04 Connected to Naveego Legacy API
+07/01/2019 13:38:04 Discovering Schemas...
+07/01/2019 13:38:04 Schemas found: 5
+07/01/2019 13:38:04 Schemas returned: 5
+07/01/2019 13:38:07 Connected to Naveego Legacy API
+07/01/2019 13:38:07 Discovering Schemas...
+07/01/2019 13:38:07 Schemas found: 5
+07/01/2019 13:38:07 Schemas returned: 5
+07/01/2019 13:38:09 Connected to Naveego Legacy API
+07/01/2019 13:38:09 Discovering Schemas...
+07/01/2019 13:38:09 Schemas found: 5
+07/01/2019 13:38:09 Schemas returned: 5
+07/01/2019 13:38:11 Connected to Naveego Legacy API
+07/01/2019 13:38:11 Discovering Schemas...
+07/01/2019 13:38:11 Schemas found: 5
+07/01/2019 13:38:11 Schemas returned: 5
+07/01/2019 13:38:14 Connected to Naveego Legacy API
+07/01/2019 13:38:14 Discovering Schemas...
+07/01/2019 13:38:14 Schemas found: 5
+07/01/2019 13:38:14 Schemas returned: 5
+07/01/2019 13:38:16 Connected to Naveego Legacy API
+07/01/2019 13:38:16 Discovering Schemas...
+07/01/2019 13:38:16 Schemas found: 5
+07/01/2019 13:38:16 Schemas returned: 5
+07/01/2019 13:38:18 Connected to Naveego Legacy API
+07/01/2019 13:38:18 Discovering Schemas...
+07/01/2019 13:38:18 Schemas found: 5
+07/01/2019 13:38:18 Schemas returned: 1
+07/01/2019 13:38:19 Connected to Naveego Legacy API
+07/01/2019 13:38:19 Discovering Schemas...
+07/01/2019 13:38:19 Schemas found: 5
+07/01/2019 13:38:19 Schemas returned: 5
+07/01/2019 13:38:21 Connected to Naveego Legacy API
+07/01/2019 13:38:21 Discovering Schemas...
+07/01/2019 13:38:21 Schemas found: 5
+07/01/2019 13:38:21 Schemas returned: 5
+07/01/2019 13:38:23 Connected to Naveego Legacy API
+07/01/2019 13:38:23 Discovering Schemas...
+07/01/2019 13:38:23 Schemas found: 5
+07/01/2019 13:38:23 Schemas returned: 5
+07/01/2019 13:38:26 Connected to Naveego Legacy API
+07/01/2019 13:38:26 Discovering Schemas...
+07/01/2019 13:38:26 Schemas found: 5
+07/01/2019 13:38:26 Schemas returned: 5
+07/01/2019 13:38:28 Connected to Naveego Legacy API
+07/01/2019 13:38:28 Discovering Schemas...
+07/01/2019 13:38:28 Schemas found: 5
+07/01/2019 13:38:28 Schemas returned: 5
+07/01/2019 13:38:30 Connected to Naveego Legacy API
+07/01/2019 13:38:30 Discovering Schemas...
+07/01/2019 13:38:30 Schemas found: 5
+07/01/2019 13:38:30 Schemas returned: 5
+07/01/2019 13:38:33 Connected to Naveego Legacy API
+07/01/2019 13:38:33 Discovering Schemas...
+07/01/2019 13:38:33 Schemas found: 5
+07/01/2019 13:38:33 Schemas returned: 5
+07/01/2019 13:38:35 Connected to Naveego Legacy API
+07/01/2019 13:38:35 Discovering Schemas...
+07/01/2019 13:38:35 Schemas found: 5
+07/01/2019 13:38:35 Schemas returned: 5
+07/01/2019 13:38:37 Connected to Naveego Legacy API
+07/01/2019 13:38:37 Discovering Schemas...
+07/01/2019 13:38:37 Schemas found: 5
+07/01/2019 13:38:37 Schemas returned: 5
+07/01/2019 13:38:39 Connected to Naveego Legacy API
+07/01/2019 13:38:39 Discovering Schemas...
+07/01/2019 13:38:39 Schemas found: 5
+07/01/2019 13:38:39 Schemas returned: 5
+07/01/2019 13:38:41 Connected to Naveego Legacy API
+07/01/2019 13:38:41 Discovering Schemas...
+07/01/2019 13:38:41 Schemas found: 5
+07/01/2019 13:38:41 Schemas returned: 5
+07/01/2019 13:38:43 Connected to Naveego Legacy API
+07/01/2019 13:38:43 Discovering Schemas...
+07/01/2019 13:38:43 Schemas found: 5
+07/01/2019 13:38:43 Schemas returned: 5
+07/01/2019 13:38:46 Connected to Naveego Legacy API
+07/01/2019 13:38:46 Discovering Schemas...
+07/01/2019 13:38:46 Schemas found: 5
+07/01/2019 13:38:46 Schemas returned: 5
+07/01/2019 13:38:48 Connected to Naveego Legacy API
+07/01/2019 13:38:48 Discovering Schemas...
+07/01/2019 13:38:48 Schemas found: 5
+07/01/2019 13:38:48 Schemas returned: 5
+07/01/2019 13:38:50 Connected to Naveego Legacy API
+07/01/2019 13:38:50 Discovering Schemas...
+07/01/2019 13:38:50 Schemas found: 5
+07/01/2019 13:38:50 Schemas returned: 5
+07/01/2019 13:38:52 Connected to Naveego Legacy API
+07/01/2019 13:38:52 Discovering Schemas...
+07/01/2019 13:38:52 Schemas found: 5
+07/01/2019 13:38:52 Schemas returned: 5
+07/01/2019 13:38:54 Connected to Naveego Legacy API
+07/01/2019 13:38:54 Discovering Schemas...
+07/01/2019 13:38:54 Schemas found: 5
+07/01/2019 13:38:54 Schemas returned: 5
+07/01/2019 13:38:56 Connected to Naveego Legacy API
+07/01/2019 13:38:56 Discovering Schemas...
+07/01/2019 13:38:56 Schemas found: 5
+07/01/2019 13:38:56 Schemas returned: 5
+07/01/2019 13:38:59 Connected to Naveego Legacy API
+07/01/2019 13:38:59 Discovering Schemas...
+07/01/2019 13:38:59 Schemas found: 5
+07/01/2019 13:38:59 Schemas returned: 5
+07/01/2019 13:39:01 Connected to Naveego Legacy API
+07/01/2019 13:39:01 Discovering Schemas...
+07/01/2019 13:39:01 Schemas found: 5
+07/01/2019 13:39:01 Schemas returned: 5
+07/01/2019 13:39:03 Connected to Naveego Legacy API
+07/01/2019 13:39:03 Discovering Schemas...
+07/01/2019 13:39:03 Schemas found: 5
+07/01/2019 13:39:03 Schemas returned: 5
+07/01/2019 13:39:05 Connected to Naveego Legacy API
+07/01/2019 13:39:05 Discovering Schemas...
+07/01/2019 13:39:05 Schemas found: 5
+07/01/2019 13:39:05 Schemas returned: 5
+07/01/2019 13:39:07 Connected to Naveego Legacy API
+07/01/2019 13:39:07 Discovering Schemas...
+07/01/2019 13:39:07 Schemas found: 5
+07/01/2019 13:39:07 Schemas returned: 5
+07/01/2019 13:39:09 Connected to Naveego Legacy API
+07/01/2019 13:39:09 Discovering Schemas...
+07/01/2019 13:39:10 Schemas found: 5
+07/01/2019 13:39:10 Schemas returned: 5
+07/01/2019 13:39:12 Connected to Naveego Legacy API
+07/01/2019 13:39:12 Discovering Schemas...
+07/01/2019 13:39:12 Schemas found: 5
+07/01/2019 13:39:12 Schemas returned: 5
+07/01/2019 13:39:14 Connected to Naveego Legacy API
+07/01/2019 13:39:14 Discovering Schemas...
+07/01/2019 13:39:14 Schemas found: 5
+07/01/2019 13:39:14 Schemas returned: 5
+07/01/2019 13:39:16 Connected to Naveego Legacy API
+07/01/2019 13:39:16 Discovering Schemas...
+07/01/2019 13:39:17 Schemas found: 5
+07/01/2019 13:39:17 Schemas returned: 5
+07/01/2019 13:39:19 Connected to Naveego Legacy API
+07/01/2019 13:39:19 Discovering Schemas...
+07/01/2019 13:39:19 Schemas found: 5
+07/01/2019 13:39:19 Schemas returned: 5
+07/01/2019 13:39:21 Connected to Naveego Legacy API
+07/01/2019 13:39:21 Discovering Schemas...
+07/01/2019 13:39:21 Schemas found: 5
+07/01/2019 13:39:21 Schemas returned: 5
+07/01/2019 13:39:23 Connected to Naveego Legacy API
+07/01/2019 13:39:23 Discovering Schemas...
+07/01/2019 13:39:23 Schemas found: 5
+07/01/2019 13:39:23 Schemas returned: 5
+07/01/2019 13:39:25 Connected to Naveego Legacy API
+07/01/2019 13:39:25 Discovering Schemas...
+07/01/2019 13:39:25 Schemas found: 5
+07/01/2019 13:39:25 Schemas returned: 5
+07/01/2019 13:39:27 Connected to Naveego Legacy API
+07/01/2019 13:39:27 Discovering Schemas...
+07/01/2019 13:39:27 Schemas found: 5
+07/01/2019 13:39:27 Schemas returned: 5
+07/01/2019 13:39:30 Connected to Naveego Legacy API
+07/01/2019 13:39:30 Discovering Schemas...
+07/01/2019 13:39:30 Schemas found: 5
+07/01/2019 13:39:30 Schemas returned: 5
+07/01/2019 13:39:32 Connected to Naveego Legacy API
+07/01/2019 13:39:32 Discovering Schemas...
+07/01/2019 13:39:32 Schemas found: 5
+07/01/2019 13:39:32 Schemas returned: 5
+07/01/2019 13:39:34 Connected to Naveego Legacy API
+07/01/2019 13:39:34 Discovering Schemas...
+07/01/2019 13:39:34 Schemas found: 5
+07/01/2019 13:39:34 Schemas returned: 5
+07/01/2019 13:39:36 Connected to Naveego Legacy API
+07/01/2019 13:39:36 Discovering Schemas...
+07/01/2019 13:39:37 Schemas found: 5
+07/01/2019 13:39:37 Schemas returned: 5
+07/01/2019 13:39:39 Connected to Naveego Legacy API
+07/01/2019 13:39:39 Discovering Schemas...
+07/01/2019 13:39:39 Schemas found: 5
+07/01/2019 13:39:39 Schemas returned: 5
+07/01/2019 13:39:41 Connected to Naveego Legacy API
+07/01/2019 13:39:41 Discovering Schemas...
+07/01/2019 13:39:41 Schemas found: 5
+07/01/2019 13:39:41 Schemas returned: 5
+07/01/2019 13:39:43 Connected to Naveego Legacy API
+07/01/2019 13:39:43 Discovering Schemas...
+07/01/2019 13:39:43 Schemas found: 5
+07/01/2019 13:39:43 Schemas returned: 5
+07/01/2019 13:39:45 Connected to Naveego Legacy API
+07/01/2019 13:39:45 Discovering Schemas...
+07/01/2019 13:39:45 Schemas found: 5
+07/01/2019 13:39:45 Schemas returned: 5
+07/01/2019 13:39:47 Connected to Naveego Legacy API
+07/01/2019 13:39:47 Discovering Schemas...
+07/01/2019 13:39:47 Schemas found: 5
+07/01/2019 13:39:47 Schemas returned: 5
+07/01/2019 13:39:50 Connected to Naveego Legacy API
+07/01/2019 13:39:50 Discovering Schemas...
+07/01/2019 13:39:50 Schemas found: 5
+07/01/2019 13:39:50 Schemas returned: 5
+07/01/2019 13:39:52 Connected to Naveego Legacy API
+07/01/2019 13:39:52 Discovering Schemas...
+07/01/2019 13:39:52 Schemas found: 5
+07/01/2019 13:39:52 Schemas returned: 5
+07/01/2019 13:39:54 Connected to Naveego Legacy API
+07/01/2019 13:39:54 Discovering Schemas...
+07/01/2019 13:39:54 Schemas found: 5
+07/01/2019 13:39:54 Schemas returned: 5
+07/01/2019 13:39:56 Connected to Naveego Legacy API
+07/01/2019 13:39:56 Discovering Schemas...
+07/01/2019 13:39:56 Schemas found: 5
+07/01/2019 13:39:56 Schemas returned: 5
+07/01/2019 13:39:58 Connected to Naveego Legacy API
+07/01/2019 13:39:58 Discovering Schemas...
+07/01/2019 13:39:59 Schemas found: 5
+07/01/2019 13:39:59 Schemas returned: 5
+07/01/2019 13:40:01 Connected to Naveego Legacy API
+07/01/2019 13:40:01 Discovering Schemas...
+07/01/2019 13:40:01 Schemas found: 5
+07/01/2019 13:40:01 Schemas returned: 5
+07/01/2019 13:40:03 Connected to Naveego Legacy API
+07/01/2019 13:40:03 Discovering Schemas...
+07/01/2019 13:40:03 Schemas found: 5
+07/01/2019 13:40:03 Schemas returned: 5
+07/01/2019 13:40:05 Connected to Naveego Legacy API
+07/01/2019 13:40:05 Discovering Schemas...
+07/01/2019 13:40:05 Schemas found: 5
+07/01/2019 13:40:05 Schemas returned: 5
+07/01/2019 13:40:07 Connected to Naveego Legacy API
+07/01/2019 13:40:07 Discovering Schemas...
+07/01/2019 13:40:07 Schemas found: 5
+07/01/2019 13:40:07 Schemas returned: 5
+07/01/2019 13:40:09 Connected to Naveego Legacy API
+07/01/2019 13:40:09 Discovering Schemas...
+07/01/2019 13:40:09 Schemas found: 5
+07/01/2019 13:40:09 Schemas returned: 5
+07/01/2019 13:40:11 Connected to Naveego Legacy API
+07/01/2019 13:40:11 Discovering Schemas...
+07/01/2019 13:40:11 Schemas found: 5
+07/01/2019 13:40:11 Schemas returned: 5
+07/01/2019 13:40:13 Connected to Naveego Legacy API
+07/01/2019 13:40:13 Discovering Schemas...
+07/01/2019 13:40:14 Schemas found: 5
+07/01/2019 13:40:14 Schemas returned: 5
+07/01/2019 13:40:16 Connected to Naveego Legacy API
+07/01/2019 13:40:16 Discovering Schemas...
+07/01/2019 13:40:16 Schemas found: 5
+07/01/2019 13:40:16 Schemas returned: 5
+07/01/2019 13:40:18 Connected to Naveego Legacy API
+07/01/2019 13:40:18 Discovering Schemas...
+07/01/2019 13:40:18 Schemas found: 5
+07/01/2019 13:40:18 Schemas returned: 5
+07/01/2019 13:40:20 Connected to Naveego Legacy API
+07/01/2019 13:40:20 Discovering Schemas...
+07/01/2019 13:40:20 Schemas found: 5
+07/01/2019 13:40:20 Schemas returned: 5
+07/01/2019 13:40:22 Connected to Naveego Legacy API
+07/01/2019 13:40:22 Discovering Schemas...
+07/01/2019 13:40:22 Schemas found: 5
+07/01/2019 13:40:22 Schemas returned: 5
+07/01/2019 13:40:25 Connected to Naveego Legacy API
+07/01/2019 13:40:25 Discovering Schemas...
+07/01/2019 13:40:25 Schemas found: 5
+07/01/2019 13:40:25 Schemas returned: 5
+07/01/2019 13:40:27 Connected to Naveego Legacy API
+07/01/2019 13:40:27 Discovering Schemas...
+07/01/2019 13:40:27 Schemas found: 5
+07/01/2019 13:40:27 Schemas returned: 5
+07/01/2019 13:40:29 Connected to Naveego Legacy API
+07/01/2019 13:40:29 Discovering Schemas...
+07/01/2019 13:40:29 Schemas found: 5
+07/01/2019 13:40:29 Schemas returned: 5
+07/01/2019 13:40:31 Connected to Naveego Legacy API
+07/01/2019 13:40:31 Discovering Schemas...
+07/01/2019 13:40:31 Schemas found: 5
+07/01/2019 13:40:31 Schemas returned: 5
+07/01/2019 13:40:33 Connected to Naveego Legacy API
+07/01/2019 13:40:33 Discovering Schemas...
+07/01/2019 13:40:33 Schemas found: 5
+07/01/2019 13:40:33 Schemas returned: 5
+07/01/2019 13:40:35 Connected to Naveego Legacy API
+07/01/2019 13:40:35 Discovering Schemas...
+07/01/2019 13:40:35 Schemas found: 5
+07/01/2019 13:40:35 Schemas returned: 5
+07/01/2019 13:40:37 Connected to Naveego Legacy API
+07/01/2019 13:40:37 Discovering Schemas...
+07/01/2019 13:40:38 Schemas found: 5
+07/01/2019 13:40:38 Schemas returned: 5
+07/01/2019 13:40:40 Connected to Naveego Legacy API
+07/01/2019 13:40:40 Discovering Schemas...
+07/01/2019 13:40:40 Schemas found: 5
+07/01/2019 13:40:40 Schemas returned: 5
+07/01/2019 13:40:42 Connected to Naveego Legacy API
+07/01/2019 13:40:42 Discovering Schemas...
+07/01/2019 13:40:42 Schemas found: 5
+07/01/2019 13:40:42 Schemas returned: 5
+07/01/2019 13:40:44 Connected to Naveego Legacy API
+07/01/2019 13:40:44 Discovering Schemas...
+07/01/2019 13:40:44 Schemas found: 5
+07/01/2019 13:40:44 Schemas returned: 5
+07/01/2019 13:40:47 Connected to Naveego Legacy API
+07/01/2019 13:40:47 Discovering Schemas...
+07/01/2019 13:40:47 Schemas found: 5
+07/01/2019 13:40:47 Schemas returned: 5
+07/01/2019 13:40:49 Connected to Naveego Legacy API
+07/01/2019 13:40:49 Discovering Schemas...
+07/01/2019 13:40:49 Schemas found: 5
+07/01/2019 13:40:49 Schemas returned: 5
+07/01/2019 13:40:52 Connected to Naveego Legacy API
+07/01/2019 13:40:52 Discovering Schemas...
+07/01/2019 13:40:52 Schemas found: 5
+07/01/2019 13:40:52 Schemas returned: 5
+07/01/2019 13:40:54 Connected to Naveego Legacy API
+07/01/2019 13:40:54 Discovering Schemas...
+07/01/2019 13:40:54 Schemas found: 5
+07/01/2019 13:40:54 Schemas returned: 5
+07/01/2019 13:40:56 Connected to Naveego Legacy API
+07/01/2019 13:40:56 Discovering Schemas...
+07/01/2019 13:40:56 Schemas found: 5
+07/01/2019 13:40:56 Schemas returned: 5
+07/01/2019 13:40:59 Connected to Naveego Legacy API
+07/01/2019 13:40:59 Discovering Schemas...
+07/01/2019 13:40:59 Schemas found: 5
+07/01/2019 13:40:59 Schemas returned: 5
+07/01/2019 13:41:01 Connected to Naveego Legacy API
+07/01/2019 13:41:01 Discovering Schemas...
+07/01/2019 13:41:01 Schemas found: 5
+07/01/2019 13:41:01 Schemas returned: 5
+07/01/2019 13:41:03 Connected to Naveego Legacy API
+07/01/2019 13:41:03 Discovering Schemas...
+07/01/2019 13:41:04 Schemas found: 5
+07/01/2019 13:41:04 Schemas returned: 5
+07/01/2019 13:41:06 Connected to Naveego Legacy API
+07/01/2019 13:41:06 Discovering Schemas...
+07/01/2019 13:41:06 Schemas found: 5
+07/01/2019 13:41:06 Schemas returned: 5
+07/01/2019 13:41:09 Connected to Naveego Legacy API
+07/01/2019 13:41:09 Discovering Schemas...
+07/01/2019 13:41:09 Schemas found: 5
+07/01/2019 13:41:09 Schemas returned: 5
+07/01/2019 13:41:11 Connected to Naveego Legacy API
+07/01/2019 13:41:11 Discovering Schemas...
+07/01/2019 13:41:11 Schemas found: 5
+07/01/2019 13:41:11 Schemas returned: 5
+07/01/2019 13:41:13 Connected to Naveego Legacy API
+07/01/2019 13:41:13 Discovering Schemas...
+07/01/2019 13:41:14 Schemas found: 5
+07/01/2019 13:41:14 Schemas returned: 5
+07/01/2019 13:41:16 Connected to Naveego Legacy API
+07/01/2019 13:41:16 Discovering Schemas...
+07/01/2019 13:41:16 Schemas found: 5
+07/01/2019 13:41:16 Schemas returned: 5
+07/01/2019 13:41:18 Connected to Naveego Legacy API
+07/01/2019 13:41:18 Discovering Schemas...
+07/01/2019 13:41:18 Schemas found: 5
+07/01/2019 13:41:18 Schemas returned: 5
+07/01/2019 13:41:21 Connected to Naveego Legacy API
+07/01/2019 13:41:21 Discovering Schemas...
+07/01/2019 13:41:21 Schemas found: 5
+07/01/2019 13:41:21 Schemas returned: 5
+07/01/2019 13:41:23 Connected to Naveego Legacy API
+07/01/2019 13:41:23 Discovering Schemas...
+07/01/2019 13:41:23 Schemas found: 5
+07/01/2019 13:41:23 Schemas returned: 5
+07/01/2019 13:41:26 Connected to Naveego Legacy API
+07/01/2019 13:41:26 Discovering Schemas...
+07/01/2019 13:41:26 Schemas found: 5
+07/01/2019 13:41:26 Schemas returned: 5
+07/01/2019 13:41:28 Connected to Naveego Legacy API
+07/01/2019 13:41:28 Discovering Schemas...
+07/01/2019 13:41:28 Schemas found: 5
+07/01/2019 13:41:28 Schemas returned: 5
+07/01/2019 13:41:30 Connected to Naveego Legacy API
+07/01/2019 13:41:30 Discovering Schemas...
+07/01/2019 13:41:31 Schemas found: 5
+07/01/2019 13:41:31 Schemas returned: 5
+07/01/2019 13:41:33 Connected to Naveego Legacy API
+07/01/2019 13:41:33 Discovering Schemas...
+07/01/2019 13:41:33 Schemas found: 5
+07/01/2019 13:41:33 Schemas returned: 5
+07/01/2019 13:41:35 Connected to Naveego Legacy API
+07/01/2019 13:41:35 Discovering Schemas...
+07/01/2019 13:41:35 Schemas found: 5
+07/01/2019 13:41:35 Schemas returned: 5
+07/01/2019 13:41:38 Connected to Naveego Legacy API
+07/01/2019 13:41:38 Discovering Schemas...
+07/01/2019 13:41:38 Schemas found: 5
+07/01/2019 13:41:38 Schemas returned: 5
+07/01/2019 13:41:40 Connected to Naveego Legacy API
+07/01/2019 13:41:40 Discovering Schemas...
+07/01/2019 13:41:40 Schemas found: 5
+07/01/2019 13:41:40 Schemas returned: 5
+07/01/2019 13:41:42 Connected to Naveego Legacy API
+07/01/2019 13:41:42 Discovering Schemas...
+07/01/2019 13:41:42 Schemas found: 5
+07/01/2019 13:41:42 Schemas returned: 5
+07/01/2019 13:41:44 Connected to Naveego Legacy API
+07/01/2019 13:41:44 Discovering Schemas...
+07/01/2019 13:41:44 Schemas found: 5
+07/01/2019 13:41:44 Schemas returned: 5
+07/01/2019 13:41:47 Connected to Naveego Legacy API
+07/01/2019 13:41:47 Discovering Schemas...
+07/01/2019 13:41:47 Schemas found: 5
+07/01/2019 13:41:47 Schemas returned: 5
+07/01/2019 13:41:49 Connected to Naveego Legacy API
+07/01/2019 13:41:49 Discovering Schemas...
+07/01/2019 13:41:49 Schemas found: 5
+07/01/2019 13:41:49 Schemas returned: 5
+07/01/2019 13:41:51 Connected to Naveego Legacy API
+07/01/2019 13:41:51 Discovering Schemas...
+07/01/2019 13:41:51 Schemas found: 5
+07/01/2019 13:41:51 Schemas returned: 5
+07/01/2019 13:41:53 Connected to Naveego Legacy API
+07/01/2019 13:41:53 Discovering Schemas...
+07/01/2019 13:41:54 Schemas found: 5
+07/01/2019 13:41:54 Schemas returned: 5
+07/01/2019 13:41:56 Connected to Naveego Legacy API
+07/01/2019 13:41:56 Discovering Schemas...
+07/01/2019 13:41:56 Schemas found: 5
+07/01/2019 13:41:56 Schemas returned: 5
+07/01/2019 13:41:58 Connected to Naveego Legacy API
+07/01/2019 13:41:58 Discovering Schemas...
+07/01/2019 13:41:58 Schemas found: 5
+07/01/2019 13:41:58 Schemas returned: 5
+07/01/2019 13:42:01 Connected to Naveego Legacy API
+07/01/2019 13:42:01 Discovering Schemas...
+07/01/2019 13:42:01 Schemas found: 5
+07/01/2019 13:42:01 Schemas returned: 5
+07/01/2019 13:42:03 Connected to Naveego Legacy API
+07/01/2019 13:42:03 Discovering Schemas...
+07/01/2019 13:42:03 Schemas found: 5
+07/01/2019 13:42:03 Schemas returned: 5
+07/01/2019 13:42:06 Connected to Naveego Legacy API
+07/01/2019 13:42:06 Discovering Schemas...
+07/01/2019 13:42:06 Schemas found: 5
+07/01/2019 13:42:06 Schemas returned: 5
+07/01/2019 13:42:08 Connected to Naveego Legacy API
+07/01/2019 13:42:08 Discovering Schemas...
+07/01/2019 13:42:08 Schemas found: 5
+07/01/2019 13:42:08 Schemas returned: 5
+07/01/2019 13:42:10 Connected to Naveego Legacy API
+07/01/2019 13:42:10 Discovering Schemas...
+07/01/2019 13:42:10 Schemas found: 5
+07/01/2019 13:42:10 Schemas returned: 5
+07/01/2019 13:42:13 Connected to Naveego Legacy API
+07/01/2019 13:42:13 Discovering Schemas...
+07/01/2019 13:42:13 Schemas found: 5
+07/01/2019 13:42:13 Schemas returned: 5
+07/01/2019 13:42:18 Connected to Naveego Legacy API
+07/01/2019 13:57:05 Connected to Naveego Legacy API
+07/01/2019 13:57:05 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/data/objects/?page=1&pagesize=100").
+07/01/2019 13:57:56 Connected to Naveego Legacy API
+07/01/2019 13:58:44 Connected to Naveego Legacy API
+07/01/2019 13:58:44 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/data/objects/?page=1&pagesize=100").
+07/01/2019 13:59:00 Connected to Naveego Legacy API
+07/01/2019 13:59:29 Connected to Naveego Legacy API
+07/01/2019 13:59:29 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/data/objects/WELL?page=1&pagesize=100").
+07/01/2019 13:59:50 Connected to Naveego Legacy API
+07/01/2019 14:00:53 Connected to Naveego Legacy API
+07/01/2019 14:00:53 Non-invocable member 'Newtonsoft.Json.Linq.JContainer.Count' cannot be used like a method.
+07/01/2019 14:02:00 Connected to Naveego Legacy API
+07/01/2019 14:02:00 Non-invocable member 'Newtonsoft.Json.Linq.JContainer.Count' cannot be used like a method.
+07/01/2019 14:02:54 Connected to Naveego Legacy API
+07/01/2019 14:33:10 Connected to Naveego Legacy API
+07/01/2019 14:36:07 Non-invocable member 'Newtonsoft.Json.Linq.JContainer.Count' cannot be used like a method.
+07/01/2019 14:36:45 Connected to Naveego Legacy API
+07/01/2019 14:41:43 Connected to Naveego Legacy API
+07/01/2019 14:41:43 Response status code does not indicate success: 404 (No matching mock handler for "GET https://useast-pod-01.naveegoapi.com/v3/data/objects/WELL?page=2&pagesize=100").
+07/01/2019 14:42:48 Connected to Naveego Legacy API
+07/01/2019 14:43:47 Connected to Naveego Legacy API
+07/01/2019 14:48:04 Connected to Naveego Legacy API
+07/01/2019 14:48:11 Connected to Naveego Legacy API
+07/01/2019 14:52:48 Connected to Naveego Legacy API
+07/01/2019 14:53:09 Connected to Naveego Legacy API
+07/01/2019 14:54:39 Connected to Naveego Legacy API
+07/01/2019 14:55:28 Connected to Naveego Legacy API
+07/01/2019 14:56:24 Connected to Naveego Legacy API
+07/01/2019 14:56:25 Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.String'.
+07/01/2019 14:57:18 Connected to Naveego Legacy API
+07/01/2019 14:59:21 Connected to Naveego Legacy API
+07/01/2019 15:00:17 Connected to Naveego Legacy API
+07/01/2019 15:00:17 Discovering Schemas...
+07/01/2019 15:00:17 Schemas found: 5
+07/01/2019 15:00:17 Schemas returned: 5
+07/01/2019 15:00:17 Connected to Naveego Legacy API
+07/01/2019 15:00:47 Connected to Naveego Legacy API
+07/01/2019 15:00:47 Discovering Schemas...
+07/01/2019 15:00:47 Schemas found: 5
+07/01/2019 15:00:47 Schemas returned: 1
+07/01/2019 15:00:47 Connected to Naveego Legacy API
+07/01/2019 15:13:31 Connected to Naveego Legacy API
+07/01/2019 15:13:31 Connected to Naveego Legacy API
+07/01/2019 15:13:31 Discovering Schemas...
+07/01/2019 15:13:31 Schemas found: 5
+07/01/2019 15:13:31 Schemas returned: 5
+07/01/2019 15:13:31 Connected to Naveego Legacy API
+07/01/2019 15:13:31 Connected to Naveego Legacy API
+07/01/2019 15:13:31 Discovering Schemas...
+07/01/2019 15:13:31 Schemas found: 5
+07/01/2019 15:13:31 Schemas returned: 1
+07/01/2019 15:13:31 Connected to Naveego Legacy API

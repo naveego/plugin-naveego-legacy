@@ -1,0 +1,11 @@
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.deps.json
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.runtimeconfig.json
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.runtimeconfig.dev.json
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/bin/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.pdb
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.csprojAssemblyReference.cache
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.csproj.CoreCompileInputs.cache
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.AssemblyInfoInputs.cache
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.AssemblyInfo.cs
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.dll
+/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/Debug/netcoreapp2.2/Plugin-Naveego-Legacy.pdb
