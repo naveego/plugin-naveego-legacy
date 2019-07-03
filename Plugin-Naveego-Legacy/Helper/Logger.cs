@@ -15,7 +15,7 @@ namespace Plugin_Naveego_Legacy.Helper
             Off
         }
         
-        private static string _path = @"plugin-zoho-log.txt";
+        private static string _path = @"plugin-naveego-legacy-log.txt";
         private static LogLevel _level = LogLevel.Info;
         private static ReaderWriterLockSlim _readWriteLock = new ReaderWriterLockSlim();
         

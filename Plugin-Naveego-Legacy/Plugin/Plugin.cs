@@ -22,6 +22,7 @@ namespace Plugin_Naveego_Legacy.Plugin
 {
     public class Plugin : Publisher.PublisherBase
     {
+        private readonly string _authUri = "https://login.naveego.com";
         private readonly string _apiUri = "https://useast-pod-01.naveegoapi.com";
         private readonly HttpClient _injectedClient;
 
@@ -161,6 +162,16 @@ namespace Plugin_Naveego_Legacy.Plugin
                         Name = rule.@object,
                         DataFlowDirection = Schema.Types.DataFlowDirection.Read
                     };
+                    
+                    // Add ID property
+                    schema.Properties.Add(new Property
+                    {
+                        Id = "ID",
+                        Name = "ID",
+                        Type = PropertyType.String,
+                        Description = "The global identifier",
+                        IsKey = true
+                    });
 
                     foreach (dynamic prop in rule.properties)
                     {
@@ -223,6 +234,12 @@ namespace Plugin_Naveego_Legacy.Plugin
             // get to get a schema for each module found
             try
             {
+                
+                // get additional metadata about properties for formatting
+                var metaUrl = $"{_apiUri}/v3/metadata/objects/{schema.Name}";
+                var metaResp = await _injectedClient.GetAsync(metaUrl);
+                LegacyMetadata metaJson = JsonConvert.DeserializeObject<LegacyMetadata>(await metaResp.Content.ReadAsStringAsync());
+                
                 var recordCount = 0;
                 var page = 1;
                 var pageSize = 100;
@@ -240,17 +257,53 @@ namespace Plugin_Naveego_Legacy.Plugin
                     foreach (dynamic item in items)
                     {
                         var data = new Dictionary<string, object>();
-
+                        
                         foreach (var prop in schema.Properties)
                         {
+
+                            var propMeta = metaJson.LegacyProperties.FirstOrDefault(p => p.Name == prop.Id);
+                            var scale = (propMeta != null) ? propMeta.Scale : 0;
+                            
+                            if (prop.Id == "ID")
+                            {
+                                data.Add(prop.Id, item._id.ToString());
+                                continue;
+                            }
+
                             if (item.ContainsKey(prop.Id))
                             {
                                 object value = item[prop.Id];
                                 if (value != null)
                                 {
-                                    if (prop.Type == PropertyType.String)
+                                    switch (prop.Type)
                                     {
-                                        value = (value.ToString()).Replace("\n", "\r\n");
+                                        case PropertyType.String:
+                                            if (Decimal.TryParse(value.ToString(), out var d))
+                                            {
+                                                var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
+                                                value = (d == 0.0M) ? value : PrepareDecimal(scale, d);
+
+                                                if (suffix != "")
+                                                {
+                                                    value = value.ToString() + suffix;
+                                                }
+                                            }
+                                            else
+                                            {
+                                                value = (value.ToString()).Replace("\n", "\r\n");
+                                            }
+                                            break;
+                                        case PropertyType.Datetime:
+                                            value = ((DateTime) value).ToUniversalTime()
+                                                .ToString("yyyy-MM-ddTHH:mm:ssZ");
+                                            break;
+                                        case PropertyType.Float:
+                                        case PropertyType.Decimal:
+                                            value = (Convert.ToDecimal(value) == 0.0M) ? null : PrepareDecimal(scale, Convert.ToDecimal(value));
+                                            break;
+                                        case PropertyType.Integer:
+                                            value = (Convert.ToInt64(value) == 0) ? null : value;
+                                            break;
                                     }
 
                                     data.Add(prop.Id, value);
@@ -310,14 +363,50 @@ namespace Plugin_Naveego_Legacy.Plugin
                     return PropertyType.Bool;
                 case "double":
                     return PropertyType.Float;
+                case "number":
                 case "integer":
                     return PropertyType.Integer;
                 case "jsonarray":
                 case "jsonobject":
                     return PropertyType.Json;
+                case "date":
+                    return PropertyType.Date;
+                case "datetime":
+                    return PropertyType.Datetime;
+                case "time":
+                    return PropertyType.Text;
+                case "float":
+                    return PropertyType.Float;
+                case "decimal":
+                    return PropertyType.Decimal;
                 default:
                     return PropertyType.String;
             }
+        }
+
+        private string PrepareDecimal(int scale, decimal value)
+        {
+         
+            
+            var s = value.ToString();
+            var numOfZeros = scale;
+            
+            if (scale == 0)
+            {
+                return s;
+            }
+            
+            var idx = s.IndexOf('.');
+            if (idx <= 0)
+            {
+                s += ".";
+            }
+            else
+            {
+                numOfZeros = scale - (s.Length - (idx + 1));
+            }
+
+            return s + new string('0', numOfZeros);
         }
 
         
@@ -352,23 +441,21 @@ namespace Plugin_Naveego_Legacy.Plugin
                     new KeyValuePair<string, string>("client_secret", _formSettings.OAuthClientSecret)
                 };
                 var formContent = new FormUrlEncodedContent(keyValues);
-                
 
-                var authUrl = $"{_apiUri}/authenticate";
+                var authUrl = $"{_authUri}/oauth2/token";
 
                 var resp = await _injectedClient.PostAsync(authUrl, formContent);
 
                 if (resp.IsSuccessStatusCode)
                 {
-                    
                     var respJson = JObject.Parse(await resp.Content.ReadAsStringAsync());
-                    _authToken = (string) respJson["token"];
+                    _authToken = (string) respJson["access_token"];
 
                     _injectedClient.DefaultRequestHeaders.Authorization =
                         new AuthenticationHeaderValue("Bearer", _authToken);
+                    
+                    return true;
                 }
-
-                return true;
             }
             catch (Exception e)
             {

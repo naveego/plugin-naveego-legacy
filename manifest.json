@@ -4,7 +4,7 @@
   "description": "Publisher which pulls data from a Naveego's Legacy Golden Record service",
   "apiVersion": "2",
   "versionDescription": "Version 2",
-  "version": "1.0.1",
+  "version": "1.0.14",
   "iconFile": "icon.jpg",
   "executable": "Plugin-Naveego-Legacy",
   "kind": "publisher",
@@ -21,7 +21,7 @@
   "configSchema": {
     "ui": {
       "ui:order": [
-        "OAuthClientID",
+        "OAuthClientId",
         "OAuthClientSecret",
         "Username",
         "Password"
@@ -36,9 +36,9 @@
     "schema": {
       "type": "object",
       "properties": {
-        "OAuthClientID" : {
+        "OAuthClientId" : {
           "type": "string",
-          "title": "OAuthClientID",
+          "title": "OAuthClientId",
           "description": "The oauth client id to use for authentication"
         },
         "OAuthClientSecret": {
@@ -58,7 +58,7 @@
         }
       },
       "required": [
-        "OAuthClientID",
+        "OAuthClientId",
         "OAuthClientSecret",
         "Username",
         "Password"
