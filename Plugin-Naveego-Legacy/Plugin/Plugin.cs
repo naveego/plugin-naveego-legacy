@@ -286,13 +286,12 @@ namespace Plugin_Naveego_Legacy.Plugin
                                             if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
                                                 new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
                                             {
-                                                value = dr.ToUniversalTime()
-                                                    .ToString("yyyy-MM-ddTHH:mm:ss");
+                                                value = dr.ToString("yyyy-MM-ddTHH:mm:ss");
                                             }
                                             else if (!value.ToString().StartsWith("0") && Decimal.TryParse(value.ToString(), out var d))
                                             {
                                                 var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
-                                                value = (!IsNonNullableDecimal(prop.Id) && d == 0.0M) ? null : PrepareDecimal(scale, d);
+                                                value = (IsNonNullableDecimal(prop.Id) && d == 0.0M) ? null : PrepareDecimal(scale, d);
 
                                                 if (suffix != "")
                                                 {
@@ -305,8 +304,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                                             }
                                             break;
                                         case PropertyType.Datetime:
-                                            value = ((DateTime) value).ToUniversalTime()
-                                                .ToString("yyyy-MM-ddTHH:mm:ss");
+                                            value = ((DateTime) value).ToString("yyyy-MM-ddTHH:mm:ss");
                                             break;
                                         case PropertyType.Float:
                                         case PropertyType.Decimal:
