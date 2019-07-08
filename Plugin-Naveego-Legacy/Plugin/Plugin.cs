@@ -29,8 +29,8 @@ namespace Plugin_Naveego_Legacy.Plugin
         
         private string _authToken = null;
         private FormSettings _formSettings;
-        private string[] _nonNullableDecimals;
-        
+        private string[] _convertNullToZero;
+  
         private TaskCompletionSource<bool> _tcs;
         
         public Plugin(HttpClient client = null)
@@ -50,10 +50,9 @@ namespace Plugin_Naveego_Legacy.Plugin
             {
                 _formSettings = JsonConvert.DeserializeObject<FormSettings>(request.SettingsJson);
 
-                _nonNullableDecimals = (_formSettings.DecimalsThatAreNotReallyNullable == null)
+                _convertNullToZero = (_formSettings.ConvertNullToZero == null)
                     ? new string[0]
-                    : _formSettings.DecimalsThatAreNotReallyNullable.Split(',', 
-                        StringSplitOptions.RemoveEmptyEntries);
+                    : _formSettings.ConvertNullToZero.Split(',', StringSplitOptions.RemoveEmptyEntries);
             }
             catch (Exception e)
             {
@@ -288,10 +287,10 @@ namespace Plugin_Naveego_Legacy.Plugin
                                             {
                                                 value = dr.ToString("yyyy-MM-ddTHH:mm:ss");
                                             }
-                                            else if (!value.ToString().StartsWith("0") && Decimal.TryParse(value.ToString(), out var d))
+                                            else if (decimal.TryParse(value.ToString(), out var d))
                                             {
                                                 var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
-                                                value = (IsNonNullableDecimal(prop.Id) && d == 0.0M) ? null : PrepareDecimal(scale, d);
+                                                value = (!ConvertNullToZero(prop.Id) && d == 0.0M) ? null : PrepareDecimal(scale, d);
 
                                                 if (suffix != "")
                                                 {
@@ -417,12 +416,6 @@ namespace Plugin_Naveego_Legacy.Plugin
 
             return s + new string('0', numOfZeros);
         }
-
-        private bool IsNonNullableDecimal(string fieldName)
-        {
-            return _nonNullableDecimals.Contains(fieldName, StringComparer.OrdinalIgnoreCase);
-        }
-
         
         /// <summary>
         /// Checks if a http response message is not empty and did not fail
@@ -432,6 +425,11 @@ namespace Plugin_Naveego_Legacy.Plugin
         private bool IsSuccessAndNotEmpty(HttpResponseMessage response)
         {
             return response.StatusCode != HttpStatusCode.NoContent && response.IsSuccessStatusCode;
+        }
+
+        private bool ConvertNullToZero(string fieldName)
+        {
+            return _convertNullToZero.Contains(fieldName, StringComparer.OrdinalIgnoreCase);
         }
 
         private async Task<bool> AuthorizeHttpClient()

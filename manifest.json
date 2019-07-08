@@ -25,7 +25,7 @@
         "OAuthClientSecret",
         "Username",
         "Password",
-        "DecimalsThatAreNotReallyNullable"
+        "ConvertNullToZero"
       ],
       "Password": {
         "ui:widget": "password"
@@ -57,10 +57,10 @@
           "title": "Password",
           "description": "The password to use for authentication"
         }, 
-        "DecimalsThatAreNotReallyNullable": {
+        "ConvertNullToZero": {
           "type": "string",
-          "title": "Non Nullable Decimal fields",
-          "description": "Decimals that we think are null, but they aren't.  Separate multiple with a comma."
+          "title": "Convert Nulls to 0",
+          "description": "Properties listed here will have null values converted to  Separate multiple with a comma."
         }
       },
       "required": [
