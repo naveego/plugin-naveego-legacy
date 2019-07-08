@@ -26,9 +26,10 @@ namespace Plugin_Naveego_Legacy.Plugin
         private readonly string _authUri = "https://login.naveego.com";
         private readonly string _apiUri = "https://useast-pod-01.naveegoapi.com";
         private readonly HttpClient _injectedClient;
-
+        
         private string _authToken = null;
         private FormSettings _formSettings;
+        private string[] _nonNullableDecimals;
         
         private TaskCompletionSource<bool> _tcs;
         
@@ -45,10 +46,14 @@ namespace Plugin_Naveego_Legacy.Plugin
         /// <returns>A message indicating connection success</returns>
         public override async Task<ConnectResponse> Connect(ConnectRequest request, ServerCallContext context)
         {
-            FormSettings formSettings;
             try
             {
                 _formSettings = JsonConvert.DeserializeObject<FormSettings>(request.SettingsJson);
+
+                _nonNullableDecimals = (_formSettings.DecimalsThatAreNotReallyNullable == null)
+                    ? new string[0]
+                    : _formSettings.DecimalsThatAreNotReallyNullable.Split(',', 
+                        StringSplitOptions.RemoveEmptyEntries);
             }
             catch (Exception e)
             {
@@ -138,7 +143,6 @@ namespace Plugin_Naveego_Legacy.Plugin
             Logger.Info("Discovering Schemas...");
 
             DiscoverSchemasResponse discoverSchemasResponse = new DiscoverSchemasResponse();
-            ModuleResponse modulesResponse;
 
             var isAuthed = await AuthorizeHttpClient();
             if (!isAuthed)
@@ -288,7 +292,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                                             else if (!value.ToString().StartsWith("0") && Decimal.TryParse(value.ToString(), out var d))
                                             {
                                                 var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
-                                                value = (d == 0.0M) ? null : PrepareDecimal(scale, d);
+                                                value = (!IsNonNullableDecimal(prop.Id) && d == 0.0M) ? null : PrepareDecimal(scale, d);
 
                                                 if (suffix != "")
                                                 {
@@ -414,6 +418,11 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
 
             return s + new string('0', numOfZeros);
+        }
+
+        private bool IsNonNullableDecimal(string fieldName)
+        {
+            return _nonNullableDecimals.Contains(fieldName, StringComparer.OrdinalIgnoreCase);
         }
 
         
