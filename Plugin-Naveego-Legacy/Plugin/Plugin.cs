@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -278,10 +279,16 @@ namespace Plugin_Naveego_Legacy.Plugin
                                     switch (prop.Type)
                                     {
                                         case PropertyType.String:
-                                            if (Decimal.TryParse(value.ToString(), out var d))
+                                            if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
+                                                new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
+                                            {
+                                                value = dr.ToUniversalTime()
+                                                    .ToString("yyyy-MM-ddTHH:mm:ss");
+                                            }
+                                            else if (!value.ToString().StartsWith("0") && Decimal.TryParse(value.ToString(), out var d))
                                             {
                                                 var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
-                                                value = (d == 0.0M) ? value : PrepareDecimal(scale, d);
+                                                value = (d == 0.0M) ? null : PrepareDecimal(scale, d);
 
                                                 if (suffix != "")
                                                 {
@@ -295,7 +302,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                                             break;
                                         case PropertyType.Datetime:
                                             value = ((DateTime) value).ToUniversalTime()
-                                                .ToString("yyyy-MM-ddTHH:mm:ssZ");
+                                                .ToString("yyyy-MM-ddTHH:mm:ss");
                                             break;
                                         case PropertyType.Float:
                                         case PropertyType.Decimal:
