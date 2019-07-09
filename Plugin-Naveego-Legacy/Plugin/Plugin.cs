@@ -308,7 +308,14 @@ namespace Plugin_Naveego_Legacy.Plugin
                                             }
                                             break;
                                         case PropertyType.Datetime:
-                                            value = ((DateTime) value).ToString("yyyy-MM-ddTHH:mm:ss");
+                                            if (value is DateTime time)
+                                            {
+                                                value = time.ToString("yyyy-MM-ddTHH:mm:ss");
+                                            }
+                                            else if (DateTime.TryParse(value.ToString(), out var rd))
+                                            {
+                                                value = rd.ToString("yyyy-MM-ddTHH:mm:ss");
+                                            }
                                             break;
                                         case PropertyType.Float:
                                         case PropertyType.Decimal:
