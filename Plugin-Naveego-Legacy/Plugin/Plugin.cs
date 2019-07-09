@@ -282,7 +282,12 @@ namespace Plugin_Naveego_Legacy.Plugin
                                     switch (prop.Type)
                                     {
                                         case PropertyType.String:
-                                            if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
+                                            // This is a number as s string as it has preceding zeros
+                                            if (value.ToString().StartsWith("0") && value.ToString().Length > 1)
+                                            {
+                                                value = value.ToString().Replace("\n", "\r\n");
+                                            }
+                                            else if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
                                                 new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
                                             {
                                                 value = dr.ToString("yyyy-MM-ddTHH:mm:ss");
