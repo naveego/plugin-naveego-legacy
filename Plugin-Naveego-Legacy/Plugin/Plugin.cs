@@ -378,7 +378,6 @@ namespace Plugin_Naveego_Legacy.Plugin
                 case "jsonobject":
                     return PropertyType.Json;
                 case "date":
-                    return PropertyType.Date;
                 case "datetime":
                     return PropertyType.Datetime;
                 case "time":
