@@ -26,13 +26,13 @@ namespace Plugin_Naveego_Legacy.Plugin
         private readonly string _authUri = "https://login.naveego.com";
         private readonly string _apiUri = "https://useast-pod-01.naveegoapi.com";
         private readonly HttpClient _injectedClient;
-        
+
         private string _authToken = null;
         private FormSettings _formSettings;
         private string[] _convertNullToZero;
-  
+
         private TaskCompletionSource<bool> _tcs;
-        
+
         public Plugin(HttpClient client = null)
         {
             _injectedClient = client != null ? client : new HttpClient();
@@ -166,7 +166,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                         Name = rule.@object,
                         DataFlowDirection = Schema.Types.DataFlowDirection.Read
                     };
-                    
+
                     // Add ID property
                     schema.Properties.Add(new Property
                     {
@@ -183,7 +183,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                         {
                             Id = prop.name,
                             Name = prop.name,
-                            Type = GetPropertyType((string)prop.type)
+                            Type = GetPropertyType((string) prop.type)
                         });
                     }
 
@@ -207,7 +207,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                         JsonConvert.SerializeObject(discoverSchemasResponse.Schemas));
                 discoverSchemasResponse.Schemas.Clear();
                 discoverSchemasResponse.Schemas.AddRange(schemas.Where(x => refreshSchemaIds.Contains(x.Id)));
-                
+
 
                 Logger.Debug($"Schemas found: {JsonConvert.SerializeObject(schemas)}");
                 Logger.Debug($"Refresh requested on schemas: {refreshSchemaIds}");
@@ -234,16 +234,16 @@ namespace Plugin_Naveego_Legacy.Plugin
             var schema = request.Schema;
             var limit = request.Limit;
             var limitFlag = request.Limit != 0;
-            
+
             // get to get a schema for each module found
             try
             {
-                
                 // get additional metadata about properties for formatting
                 var metaUrl = $"{_apiUri}/v3/metadata/objects/{schema.Name}";
                 var metaResp = await _injectedClient.GetAsync(metaUrl);
-                LegacyMetadata metaJson = JsonConvert.DeserializeObject<LegacyMetadata>(await metaResp.Content.ReadAsStringAsync());
-                
+                LegacyMetadata metaJson =
+                    JsonConvert.DeserializeObject<LegacyMetadata>(await metaResp.Content.ReadAsStringAsync());
+
                 var recordCount = 0;
                 var page = 1;
                 var pageSize = 100;
@@ -257,17 +257,16 @@ namespace Plugin_Naveego_Legacy.Plugin
                     dynamic dataJson = JObject.Parse(await dataResp.Content.ReadAsStringAsync());
                     int total = dataJson.meta.count;
                     JArray items = (JArray) dataJson.data;
-                    
+
                     foreach (dynamic item in items)
                     {
                         var data = new Dictionary<string, object>();
-                        
+
                         foreach (var prop in schema.Properties)
                         {
-
                             var propMeta = metaJson.LegacyProperties.FirstOrDefault(p => p.Name == prop.Id);
                             var scale = (propMeta != null) ? propMeta.Scale : 0;
-                            
+
                             if (prop.Id == "ID")
                             {
                                 data.Add(prop.Id, item._id.ToString());
@@ -279,55 +278,69 @@ namespace Plugin_Naveego_Legacy.Plugin
                                 object value = item[prop.Id];
                                 if (value != null)
                                 {
-                                    switch (prop.Type)
+                                    try
                                     {
-                                        case PropertyType.String:
-                                            // This is a number as s string as it has preceding zeros
-                                            if (value.ToString().StartsWith("0") && value.ToString().Length > 1)
-                                            {
-                                                value = value.ToString().Replace("\n", "\r\n");
-                                            }
-                                            else if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
-                                                new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
-                                            {
-                                                value = dr.ToString("yyyy-MM-ddTHH:mm:ss");
-                                            }
-                                            else if (decimal.TryParse(value.ToString(), out var d))
-                                            {
-                                                var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
-                                                value = (!ConvertNullToZero(prop.Id) && d == 0.0M) ? null : PrepareDecimal(scale, d);
-
-                                                if (suffix != "")
+                                        switch (prop.Type)
+                                        {
+                                            case PropertyType.String:
+                                                // This is a number as s string as it has preceding zeros
+                                                if (value.ToString().StartsWith("0") && value.ToString().Length > 1)
                                                 {
-                                                    value = value.ToString() + suffix;
+                                                    value = value.ToString().Replace("\n", "\r\n");
                                                 }
-                                            }
-                                            else
-                                            {
-                                                value = (value.ToString()).Replace("\n", "\r\n");
-                                            }
-                                            break;
-                                        case PropertyType.Datetime:
-                                            if (value is DateTime time)
-                                            {
-                                                value = time.ToString("yyyy-MM-ddTHH:mm:ss");
-                                            }
-                                            else if (DateTime.TryParse(value.ToString(), out var rd))
-                                            {
-                                                value = rd.ToString("yyyy-MM-ddTHH:mm:ss");
-                                            }
-                                            break;
-                                        case PropertyType.Float:
-                                        case PropertyType.Decimal:
-                                            value = (Convert.ToDecimal(value) == 0.0M) ? null : PrepareDecimal(scale, Convert.ToDecimal(value));
-                                            break;
-                                        case PropertyType.Integer:
-                                            value = (Convert.ToInt64(value) == 0) ? null : value;
-                                            break;
-                                    }
+                                                else if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
+                                                    new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
+                                                {
+                                                    value = dr.ToString("yyyy-MM-ddTHH:mm:ss");
+                                                }
+                                                else if (decimal.TryParse(value.ToString(), out var d))
+                                                {
+                                                    var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
+                                                    value = (!ConvertNullToZero(prop.Id) && d == 0.0M)
+                                                        ? null
+                                                        : PrepareDecimal(scale, d);
 
-                                    data.Add(prop.Id, value);
-                                    continue;
+                                                    if (suffix != "")
+                                                    {
+                                                        value = value.ToString() + suffix;
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    value = (value.ToString()).Replace("\n", "\r\n");
+                                                }
+
+                                                break;
+                                            case PropertyType.Datetime:
+                                                if (value is DateTime time)
+                                                {
+                                                    value = time.ToString("yyyy-MM-ddTHH:mm:ss");
+                                                }
+                                                else if (DateTime.TryParse(value.ToString(), out var rd))
+                                                {
+                                                    value = rd.ToString("yyyy-MM-ddTHH:mm:ss");
+                                                }
+
+                                                break;
+                                            case PropertyType.Float:
+                                            case PropertyType.Decimal:
+                                                value = (Convert.ToDecimal(value) == 0.0M)
+                                                    ? null
+                                                    : PrepareDecimal(scale, Convert.ToDecimal(value));
+                                                break;
+                                            case PropertyType.Integer:
+                                                value = (Convert.ToInt64(value) == 0) ? null : value;
+                                                break;
+                                        }
+
+                                        data.Add(prop.Id, value);
+                                        continue;
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        data.Add(prop.Id, value);
+                                        continue;
+                                    }
                                 }
                             }
 
@@ -348,7 +361,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                         await responseStream.WriteAsync(record);
                         recordCount++;
                     }
-                    
+
                     if (limitFlag && recordCount == limit)
                     {
                         break;
@@ -383,7 +396,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                 _tcs.SetResult(true);
                 _tcs = null;
             }
-            
+
             Logger.Info("Disconnected");
             return Task.FromResult(new DisconnectResponse());
         }
@@ -423,16 +436,14 @@ namespace Plugin_Naveego_Legacy.Plugin
 
         private string PrepareDecimal(int scale, decimal value)
         {
-         
-            
             var s = value.ToString();
             var numOfZeros = scale;
-            
+
             if (scale == 0)
             {
                 return s;
             }
-            
+
             var idx = s.IndexOf('.');
             if (idx <= 0)
             {
@@ -445,7 +456,7 @@ namespace Plugin_Naveego_Legacy.Plugin
 
             return s + new string('0', numOfZeros);
         }
-        
+
         /// <summary>
         /// Checks if a http response message is not empty and did not fail
         /// </summary>
@@ -470,7 +481,7 @@ namespace Plugin_Naveego_Legacy.Plugin
 
                 return true;
             }
-            
+
             try
             {
                 var keyValues = new List<KeyValuePair<string, string>>
@@ -494,13 +505,13 @@ namespace Plugin_Naveego_Legacy.Plugin
 
                     _injectedClient.DefaultRequestHeaders.Authorization =
                         new AuthenticationHeaderValue("Bearer", _authToken);
-                    
+
                     return true;
                 }
             }
             catch (Exception e)
             {
-               Logger.Error($"Could not authenticate plugin: ${e.Message}");
+                Logger.Error($"Could not authenticate plugin: ${e.Message}");
             }
 
             return false;

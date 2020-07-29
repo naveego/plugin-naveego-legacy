@@ -5,6 +5,7 @@
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <RootNamespace>Plugin_Naveego_Legacy</RootNamespace>
         <RuntimeIdentifiers>win-x64;linux-x64;osx-x64</RuntimeIdentifiers>
+        <LangVersion>default</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>

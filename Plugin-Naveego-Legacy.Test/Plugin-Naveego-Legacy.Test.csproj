@@ -5,6 +5,8 @@
         <RootNamespace>Plugin_Naveego_Legacy</RootNamespace>
 
         <IsPackable>false</IsPackable>
+
+        <LangVersion>default</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
