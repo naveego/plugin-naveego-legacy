@@ -324,12 +324,12 @@ namespace Plugin_Naveego_Legacy.Plugin
                                                 break;
                                             case PropertyType.Float:
                                             case PropertyType.Decimal:
-                                                value = (Convert.ToDecimal(value) == 0.0M)
+                                                value = (decimal.Parse(value.ToString()) == 0.0M)
                                                     ? null
-                                                    : PrepareDecimal(scale, Convert.ToDecimal(value));
+                                                    : PrepareDecimal(scale, decimal.Parse(value.ToString()));
                                                 break;
                                             case PropertyType.Integer:
-                                                value = (Convert.ToInt64(value) == 0) ? null : value;
+                                                value = (long.Parse(value.ToString()) == 0) ? null : value;
                                                 break;
                                         }
 
