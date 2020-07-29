@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Threading;
+using Grpc.Core;
 
 namespace Plugin_Naveego_Legacy.Helper
 {
@@ -108,6 +109,25 @@ namespace Plugin_Naveego_Legacy.Helper
             {
                 return;
             }
+            
+            Log(message);
+        }
+        
+        /// <summary>
+        /// Logging method for Error messages to the context
+        /// </summary>
+        /// <param name="message"></param>
+        /// <param name="exception"></param>
+        /// <param name="context"></param>
+        public static void Error(Exception exception, string message, ServerCallContext context)
+        {
+            if (_level > LogLevel.Error)
+            {
+                return;
+            }
+            
+            GrpcEnvironment.Logger.Error(exception, message);
+            context.Status = new Status(StatusCode.Unknown, message);
             
             Log(message);
         }

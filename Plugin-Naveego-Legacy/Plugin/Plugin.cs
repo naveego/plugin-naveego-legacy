@@ -56,7 +56,7 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
             catch (Exception e)
             {
-                Logger.Error(e.Message);
+                Logger.Error(e, e.Message, context);
                 return new ConnectResponse
                 {
                     ConnectionError = "",
@@ -90,7 +90,7 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
             catch (Exception e)
             {
-                Logger.Error(e.Message);
+                Logger.Error(e, e.Message, context);
 
                 return new ConnectResponse
                 {
@@ -192,8 +192,8 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
             catch (Exception e)
             {
-                Logger.Error(e.Message);
-                throw;
+                Logger.Error(e, e.Message, context);
+                return new DiscoverSchemasResponse();
             }
 
             Logger.Info($"Schemas found: {discoverSchemasResponse.Schemas.Count}");
@@ -364,8 +364,8 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
             catch (Exception e)
             {
-                Logger.Error(e.Message);
-                throw;
+                Logger.Error(e, e.Message, context);
+                return;
             }
         }
 
