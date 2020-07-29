@@ -369,7 +369,25 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
         }
 
-        
+        /// <summary>
+        /// Handles disconnect requests from the agent
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        public override Task<DisconnectResponse> Disconnect(DisconnectRequest request, ServerCallContext context)
+        {
+            // alert connection session to close
+            if (_tcs != null)
+            {
+                _tcs.SetResult(true);
+                _tcs = null;
+            }
+            
+            Logger.Info("Disconnected");
+            return Task.FromResult(new DisconnectResponse());
+        }
+
         /// <summary>
         /// Gets the Naveego type from the provided Zoho information
         /// </summary>

@@ -1,17 +1,21 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj",
+    "projectUniqueName": "/home/wyatt/repos/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj",
     "projectName": "Plugin-Naveego-Legacy",
-    "projectPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj",
-    "outputPath": "/Users/derek/Projects/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/",
+    "projectPath": "/home/wyatt/repos/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/Plugin-Naveego-Legacy.csproj",
+    "outputPath": "/home/wyatt/repos/naveego/plugin-naveego-legacy/Plugin-Naveego-Legacy/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://nuget.pkg.github.com/naveegoinc/index.json": {}
+    },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {}
@@ -54,10 +58,16 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
     }
   },
   "runtimes": {
