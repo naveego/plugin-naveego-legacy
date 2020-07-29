@@ -323,6 +323,10 @@ namespace Plugin_Naveego_Legacy.Plugin
 
                                                 break;
                                             case PropertyType.Float:
+                                                value = (decimal.Parse(value.ToString()) == 0.0M)
+                                                    ? null
+                                                    : (double?) double.Parse(PrepareDecimal(scale, decimal.Parse(value.ToString())));
+                                                break;
                                             case PropertyType.Decimal:
                                                 value = (decimal.Parse(value.ToString()) == 0.0M)
                                                     ? null
