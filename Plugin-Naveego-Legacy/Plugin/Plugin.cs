@@ -288,6 +288,10 @@ namespace Plugin_Naveego_Legacy.Plugin
                                                 {
                                                     value = value.ToString().Replace("\n", "\r\n");
                                                 }
+                                                else if (item[prop.Id]?.Value is DateTime)
+                                                {
+                                                    value = item[prop.Id]?.Value.ToString("yyyy-MM-ddTHH:mm:ss");
+                                                }
                                                 else if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
                                                     new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
                                                 {
