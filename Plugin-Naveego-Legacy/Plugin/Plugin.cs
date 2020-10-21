@@ -354,6 +354,8 @@ namespace Plugin_Naveego_Legacy.Plugin
 
                             data.Add(prop.Id, null);
                         }
+                        
+                        Logger.Info(JsonConvert.SerializeObject(data, Formatting.Indented));
 
                         var record = new Record
                         {
