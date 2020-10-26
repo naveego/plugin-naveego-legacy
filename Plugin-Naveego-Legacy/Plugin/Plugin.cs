@@ -275,8 +275,8 @@ namespace Plugin_Naveego_Legacy.Plugin
 
                             if (item.ContainsKey(prop.Id))
                             {
-                                object value = item[prop.Id];
-                                if (value != null)
+                                var value = item[prop.Id];
+                                if (value?.Value != null)
                                 {
                                     try
                                     {
@@ -293,11 +293,11 @@ namespace Plugin_Naveego_Legacy.Plugin
                                                     value = item[prop.Id]?.Value.ToString("yyyy-MM-ddTHH:mm:ss");
                                                 }
                                                 else if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
-                                                    new CultureInfo("en-US"), DateTimeStyles.None, out var dr))
+                                                    new CultureInfo("en-US"), DateTimeStyles.None, out DateTime dr))
                                                 {
                                                     value = dr.ToString("yyyy-MM-ddTHH:mm:ss");
                                                 }
-                                                else if (decimal.TryParse(value.ToString(), out var d))
+                                                else if (decimal.TryParse(value.ToString(), out decimal d))
                                                 {
                                                     var suffix = (value.ToString().Contains("\n")) ? "\r\n" : "";
                                                     value = (!ConvertNullToZero(prop.Id) && d == 0.0M)
@@ -320,7 +320,7 @@ namespace Plugin_Naveego_Legacy.Plugin
                                                 {
                                                     value = time.ToString("yyyy-MM-ddTHH:mm:ss");
                                                 }
-                                                else if (DateTime.TryParse(value.ToString(), out var rd))
+                                                else if (DateTime.TryParse(value.ToString(), out DateTime rd))
                                                 {
                                                     value = rd.ToString("yyyy-MM-ddTHH:mm:ss");
                                                 }
