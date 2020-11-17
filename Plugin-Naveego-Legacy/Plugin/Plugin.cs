@@ -292,6 +292,10 @@ namespace Plugin_Naveego_Legacy.Plugin
                                                 {
                                                     value = item[prop.Id]?.Value.ToString("yyyy-MM-ddTHH:mm:ss");
                                                 }
+                                                else if (item[prop.Id]?.Value is double)
+                                                {
+                                                    value = (value.ToString("0." + new string('#', 339))).Replace("\n", "\r\n");
+                                                }
                                                 else if (DateTime.TryParseExact(value.ToString(), "MM/dd/yyyy hh:mm:ss",
                                                     new CultureInfo("en-US"), DateTimeStyles.None, out DateTime dr))
                                                 {
