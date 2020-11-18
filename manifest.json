@@ -25,7 +25,9 @@
         "OAuthClientSecret",
         "Username",
         "Password",
-        "ConvertNullToZero"
+        "ConvertNullToZero",
+        "AuthUrl",
+        "ApiUrl"
       ],
       "Password": {
         "ui:widget": "password"
@@ -61,6 +63,16 @@
           "type": "string",
           "title": "Convert Nulls to 0",
           "description": "Properties listed here will have null values converted to  Separate multiple with a comma."
+        },
+        "AuthUrl": {
+          "type": "string",
+          "title": "Auth Url",
+          "description": "Url for the auth service (default is https://login.naveego.com)."
+        },
+        "ApiUrl": {
+          "type": "string",
+          "title": "Api Url",
+          "description": "Url for the api service (default is https://useast-pod-01.naveegoapi.com)."
         }
       },
       "required": [

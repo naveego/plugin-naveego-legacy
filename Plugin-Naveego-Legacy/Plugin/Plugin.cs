@@ -23,8 +23,8 @@ namespace Plugin_Naveego_Legacy.Plugin
 {
     public class Plugin : Publisher.PublisherBase
     {
-        private readonly string _authUri = "https://login.naveego.com";
-        private readonly string _apiUri = "https://useast-pod-01.naveegoapi.com";
+        private string _authUri = "https://login.naveego.com";
+        private string _apiUri = "https://useast-pod-01.naveegoapi.com";
         private readonly HttpClient _injectedClient;
 
         private string _authToken = null;
@@ -53,6 +53,16 @@ namespace Plugin_Naveego_Legacy.Plugin
                 _convertNullToZero = (_formSettings.ConvertNullToZero == null)
                     ? new string[0]
                     : _formSettings.ConvertNullToZero.Split(',', StringSplitOptions.RemoveEmptyEntries);
+
+                if (!string.IsNullOrWhiteSpace(_formSettings.AuthUrl))
+                {
+                    _authUri = _formSettings.AuthUrl;
+                }
+
+                if (!string.IsNullOrWhiteSpace(_formSettings.ApiUrl))
+                {
+                    _apiUri = _formSettings.ApiUrl;
+                }
             }
             catch (Exception e)
             {

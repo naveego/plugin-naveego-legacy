@@ -9,6 +9,7 @@ namespace Plugin_Naveego_Legacy.DataContracts
         public string Password { get; set; }
         
         public string ConvertNullToZero { get; set; }
-
+        public string AuthUrl { get; set; }
+        public string ApiUrl { get; set; }
     }
 }
