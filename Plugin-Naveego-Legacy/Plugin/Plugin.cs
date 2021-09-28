@@ -5,13 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
-using System.Xml.Linq;
-using Google.Protobuf.Collections;
 using Grpc.Core;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -66,7 +60,7 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
             catch (Exception e)
             {
-                Logger.Error(e, e.Message);
+                Logger.Error(e.Message);
                 return new ConnectResponse
                 {
                     ConnectionError = "",
@@ -100,7 +94,7 @@ namespace Plugin_Naveego_Legacy.Plugin
             }
             catch (Exception e)
             {
-                Logger.Error(e, e.Message);
+                Logger.Error(e.Message);
 
                 return new ConnectResponse
                 {
